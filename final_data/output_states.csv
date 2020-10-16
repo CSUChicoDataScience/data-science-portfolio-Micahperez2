@@ -1,0 +1,928 @@
+Index, City, State,  Region, Political Leaning
+1, United States, US,  US, RED
+2, Abilene, TX,  South, RED
+3, Akron, OH,  Midwest, RED
+4, Albany, GA,  South, RED
+5, Albany-Lebanon, OR,  West, BLUE
+6, Albany-Schenectady-Troy, NY,  Northeast, BLUE
+7, Albuquerque, NM,  West, BLUE
+8, Alexandria, LA,  South, RED
+9, Allentown-Bethlehem-Easton, PA,  Northeast, RED
+10, Altoona, PA,  Northeast, RED
+11, Amarillo, TX,  South, RED
+12, Ames, IA,  Midwest, RED
+13, Anchorage, AK,  West, RED
+14, Ann Arbor, MI,  Midwest, RED
+15, Anniston-Oxford, AL,  South, RED
+16, Appleton, WI,  Midwest, RED
+17, Asheville, NC,  South, RED
+18, Athens-Clarke County, GA,  South, RED
+19, Atlanta-Sandy Springs-Alpharetta, GA,  South, RED
+20, Atlantic City-Hammonton, NJ,  Northeast, BLUE
+21, Auburn-Opelika, AL,  South, RED
+22, Augusta-Richmond County, GA,  South, RED
+23, Austin-Round Rock-Georgetown, TX,  South, RED
+24, Bakersfield, CA,  West, BLUE
+25, Baltimore-Columbia-Towson, MD,  South, BLUE
+26, Bangor, ME,  Northeast, BLUE
+27, Barnstable Town, MA,  Northeast, BLUE
+28, Baton Rouge, LA,  South, RED
+29, Battle Creek, MI,  Midwest, RED
+30, Bay City, MI,  Midwest, RED
+31, Beaumont-Port Arthur, TX,  South, RED
+32, Beckley, WV,  South, RED
+33, Bellingham, WA,  West, BLUE
+34, Bend, OR,  West, BLUE
+35, Billings, MT,  West, RED
+36, Binghamton, NY,  Northeast, BLUE
+37, Birmingham-Hoover, AL,  South, RED
+38, Bismarck, ND,  Midwest, RED
+39, Blacksburg-Christiansburg, VA,  South, BLUE
+40, Bloomington, IL,  Midwest, BLUE
+41, Bloomington, IN,  Midwest, RED
+42, Bloomsburg-Berwick, PA,  Northeast, RED
+43, Boise City, ID,  West, RED
+44, Boston-Cambridge-Newton, MA,  Northeast, BLUE
+45, Boulder, CO,  West, BLUE
+46, Bowling Green, KY,  South, RED
+47, Bremerton-Silverdale-Port Orchard, WA,  West, BLUE
+48, Bridgeport-Stamford-Norwalk, CT,  Northeast, BLUE
+49, Brownsville-Harlingen, TX,  South, RED
+50, Brunswick, GA,  South, RED
+51, Buffalo-Cheektowaga, NY,  Northeast, BLUE
+52, Burlington, NC,  South, RED
+53, Burlington-South Burlington, VT,  Northeast, BLUE
+54, California-Lexington Park, MD,  South, BLUE
+55, Canton-Massillon, OH,  Midwest, RED
+56, Cape Coral-Fort Myers, FL,  South, RED
+57, Cape Girardeau, MO,  Midwest, RED
+58, Carbondale-Marion, IL,  Midwest, BLUE
+59, Carson City, NV,  West, BLUE
+60, Casper, WY,  West, RED
+61, Cedar Rapids, IA,  Midwest, RED
+62, Chambersburg-Waynesboro, PA,  Northeast, RED
+63, Champaign-Urbana, IL,  Midwest, BLUE
+64, Charleston, WV,  South, RED
+65, Charleston-North Charleston, SC,  South, RED
+66, Charlotte-Concord-Gastonia, NC,  South, RED
+67, Charlottesville, VA,  South, BLUE
+68, Chattanooga, TN,  South, RED
+69, Cheyenne, WY,  West, RED
+70, Chicago-Naperville-Elgin, IL,  Midwest, BLUE
+71, Chico, CA,  West, BLUE
+72, Cincinnati, OH,  Midwest, RED
+73, Clarksville, TN,  South, RED
+74, Cleveland, TN,  South, RED
+75, Cleveland-Elyria, OH,  Midwest, RED
+76, Alene, ID,  West, RED
+77, College Station-Bryan, TX,  South, RED
+78, Colorado Springs, CO,  West, BLUE
+79, Columbia, MO,  Midwest, RED
+80, Columbia, SC,  South, RED
+81, Columbus, GA,  South, RED
+82, Columbus, IN,  Midwest, RED
+83, Columbus, OH,  Midwest, RED
+84, Corpus Christi, TX,  South, RED
+85, Corvallis, OR,  West, BLUE
+86, Crestview-Fort Walton Beach-Destin, FL,  South, RED
+87, Cumberland, MD,  South, BLUE
+88, Dallas-Fort Worth-Arlington, TX,  South, RED
+89, Dalton, GA,  South, RED
+90, Danville, IL,  Midwest, BLUE
+91, Daphne-Fairhope-Foley, AL,  South, RED
+92, Davenport-Moline-Rock Island, IA,  Midwest, RED
+93, Dayton-Kettering, OH,  Midwest, RED
+94, Decatur, AL,  South, RED
+95, Decatur, IL,  Midwest, BLUE
+96, Deltona-Daytona Beach-Ormond Beach, FL,  South, RED
+97, Denver-Aurora-Lakewood, CO,  West, BLUE
+98, Des Moines-West Des Moines, IA,  Midwest, RED
+99, Detroit-Warren-Dearborn, MI,  Midwest, RED
+100, Dothan, AL,  South, RED
+101, Dover, DE,  South, BLUE
+102, Dubuque, IA,  Midwest, RED
+103, Duluth, MN,  Midwest, BLUE
+104, Durham-Chapel Hill, NC,  South, RED
+105, East Stroudsburg, PA,  Northeast, RED
+106, Eau Claire, WI,  Midwest, RED
+107, El Centro, CA,  West, BLUE
+108, Elizabethtown-Fort Knox, KY,  South, RED
+109, Elkhart-Goshen, IN,  Midwest, RED
+110, Elmira, NY,  Northeast, BLUE
+111, El Paso, TX,  South, RED
+112, Enid, OK,  South, RED
+113, Erie, PA,  Northeast, RED
+114, Eugene-Springfield, OR,  West, BLUE
+115, Evansville, IN,  Midwest, RED
+116, Fairbanks, AK,  West, RED
+117, Fargo, ND,  Midwest, RED
+118, Farmington, NM,  West, BLUE
+119, Fayetteville, NC,  South, RED
+120, Fayetteville-Springdale-Rogers, AR,  South, RED
+121, Flagstaff, AZ,  West, RED
+122, Flint, MI,  Midwest, RED
+123, Florence, SC,  South, RED
+124, Florence-Muscle Shoals, AL,  South, RED
+125, Fond du Lac, WI,  Midwest, RED
+126, Fort Collins, CO,  West, BLUE
+127, Fort Smith, AR,  South, RED
+128, Fort Wayne, IN,  Midwest, RED
+129, Fresno, CA,  West, BLUE
+130, Gadsden, AL,  South, RED
+131, Gainesville, FL,  South, RED
+132, Gainesville, GA,  South, RED
+133, Gettysburg, PA,  Northeast, RED
+134, Glens Falls, NY,  Northeast, BLUE
+135, Goldsboro, NC,  South, RED
+136, Grand Forks, ND,  Midwest, RED
+137, Grand Island, NE,  Midwest, RED
+138, Grand Junction, CO,  West, BLUE
+139, Grand Rapids-Kentwood, MI,  Midwest, RED
+140, Grants Pass, OR,  West, BLUE
+141, Great Falls, MT,  West, RED
+142, Greeley, CO,  West, BLUE
+143, Green Bay, WI,  Midwest, RED
+144, Greensboro-High Point, NC,  South, RED
+145, Greenville, NC,  South, RED
+146, Greenville-Anderson, SC,  South, RED
+147, Gulfport-Biloxi, MS,  South, RED
+148, Hagerstown-Martinsburg, MD,  South, BLUE
+149, Hammond, LA,  South, RED
+150, Hanford-Corcoran, CA,  West, BLUE
+151, Harrisburg-Carlisle, PA,  Northeast, RED
+152, Harrisonburg, VA,  South, BLUE
+153, Hartford-East Hartford-Middletown, CT,  Northeast, BLUE
+154, Hattiesburg, MS,  South, RED
+155, Hickory-Lenoir-Morganton, NC,  South, RED
+156, Hilton Head Island-Bluffton, SC,  South, RED
+157, Hinesville, GA,  South, RED
+158, Homosassa Springs, FL,  South, RED
+159, Hot Springs, AR,  South, RED
+160, Houma-Thibodaux, LA,  South, RED
+161, Houston-The Woodlands-Sugar Land, TX,  South, RED
+162, Huntington-Ashland, WV,  South, RED
+163, Huntsville, AL,  South, RED
+164, Idaho Falls, ID,  West, RED
+165, Indianapolis-Carmel-Anderson, IN,  Midwest, RED
+166, Iowa City, IA,  Midwest, RED
+167, Ithaca, NY,  Northeast, BLUE
+168, Jackson, MI,  Midwest, RED
+169, Jackson, MS,  South, RED
+170, Jackson, TN,  South, RED
+171, Jacksonville, FL,  South, RED
+172, Jacksonville, NC,  South, RED
+173, Janesville-Beloit, WI,  Midwest, RED
+174, Jefferson City, MO,  Midwest, RED
+175, Johnson City, TN,  South, RED
+176, Johnstown, PA,  Northeast, RED
+177, Jonesboro, AR,  South, RED
+178, Joplin, MO,  Midwest, RED
+179, Kahului-Wailuku-Lahaina, HI,  West, BLUE
+180, Kalamazoo-Portage, MI,  Midwest, RED
+181, Kankakee, IL,  Midwest, BLUE
+182, Kansas City, MO,  Midwest, RED
+183, Kennewick-Richland, WA,  West, BLUE
+184, Killeen-Temple, TX,  South, RED
+185, Kingsport-Bristol, TN,  South, RED
+186, Kingston, NY,  Northeast, BLUE
+187, Knoxville, TN,  South, RED
+188, Kokomo, IN,  Midwest, RED
+189, La Crosse-Onalaska, WI,  Midwest, RED
+190, Lafayette, LA,  South, RED
+191, Lafayette-West Lafayette, IN,  Midwest, RED
+192, Lake Charles, LA,  South, RED
+193, Lake Havasu City-Kingman, AZ,  West, RED
+194, Lakeland-Winter Haven, FL,  South, RED
+195, Lancaster, PA,  Northeast, RED
+196, Lansing-East Lansing, MI,  Midwest, RED
+197, Laredo, TX,  South, RED
+198, Las Cruces, NM,  West, BLUE
+199, Las Vegas-Henderson-Paradise, NV,  West, BLUE
+200, Lawrence, KS,  Midwest, RED
+201, Lawton, OK,  South, RED
+202, Lebanon, PA,  Northeast, RED
+203, Lewiston, ID,  West, RED
+204, Lewiston-Auburn, ME,  Northeast, BLUE
+205, Lexington-Fayette, KY,  South, RED
+206, Lima, OH,  Midwest, RED
+207, Lincoln, NE,  Midwest, RED
+208, Little Rock-North Little Rock-Conway, AR,  South, RED
+209, Logan, UT,  West, RED
+210, Longview, TX,  South, RED
+211, Longview, WA,  West, BLUE
+212, Los Angeles-Long Beach-Anaheim, CA,  West, BLUE
+213, Louisville/Jefferson County, KY,  South, RED
+214, Lubbock, TX,  South, RED
+215, Lynchburg, VA,  South, BLUE
+216, Macon-Bibb County, GA,  South, RED
+217, Madera, CA,  West, BLUE
+218, Madison, WI,  Midwest, RED
+219, Manchester-Nashua, NH,  Northeast, BLUE
+220, Manhattan, KS,  Midwest, RED
+221, Mankato, MN,  Midwest, BLUE
+222, Mansfield, OH,  Midwest, RED
+223, McAllen-Edinburg-Mission, TX,  South, RED
+224, Medford, OR,  West, BLUE
+225, Memphis, TN,  South, RED
+226, Merced, CA,  West, BLUE
+227, Miami-Fort Lauderdale-Pompano Beach, FL,  South, RED
+228, Michigan City-La Porte, IN,  Midwest, RED
+229, Midland, MI,  Midwest, RED
+230, Midland, TX,  South, RED
+231, Milwaukee-Waukesha, WI,  Midwest, RED
+232, Minneapolis-St. Paul-Bloomington, MN,  Midwest, BLUE
+233, Missoula, MT,  West, RED
+234, Mobile, AL,  South, RED
+235, Modesto, CA,  West, BLUE
+236, Monroe, LA,  South, RED
+237, Monroe, MI,  Midwest, RED
+238, Montgomery, AL,  South, RED
+239, Morgantown, WV,  South, RED
+240, Morristown, TN,  South, RED
+241, Mount Vernon-Anacortes, WA,  West, BLUE
+242, Muncie, IN,  Midwest, RED
+243, Muskegon, MI,  Midwest, RED
+244, Myrtle Beach-Conway-North Myrtle Beach, SC,  South, RED
+245, Napa, CA,  West, BLUE
+246, Naples-Marco Island, FL,  South, RED
+247, Nashville-Davidson--Murfreesboro--Franklin, TN,  South, RED
+248, New Bern, NC,  South, RED
+249, New Haven-Milford, CT,  Northeast, BLUE
+250, New Orleans-Metairie, LA,  South, RED
+251, New York-Newark-Jersey City, NY,  Northeast, BLUE
+252, Niles, MI,  Midwest, RED
+253, North Port-Sarasota-Bradenton, FL,  South, RED
+254, Norwich-New London, CT,  Northeast, BLUE
+255, Ocala, FL,  South, RED
+256, Ocean City, NJ,  Northeast, BLUE
+257, Odessa, TX,  South, RED
+258, Ogden-Clearfield, UT,  West, RED
+259, Oklahoma City, OK,  South, RED
+260, Olympia-Lacey-Tumwater, WA,  West, BLUE
+261, Omaha-Council Bluffs, NE,  Midwest, RED
+262, Orlando-Kissimmee-Sanford, FL,  South, RED
+263, Oshkosh-Neenah, WI,  Midwest, RED
+264, Owensboro, KY,  South, RED
+265, Oxnard-Thousand Oaks-Ventura, CA,  West, BLUE
+266, Palm Bay-Melbourne-Titusville, FL,  South, RED
+267, Panama City, FL,  South, RED
+268, Parkersburg-Vienna, WV,  South, RED
+269, Pensacola-Ferry Pass-Brent, FL,  South, RED
+270, Peoria, IL,  Midwest, BLUE
+271, Philadelphia-Camden-Wilmington, PArea,  Northeast, RED
+272, Phoenix-Mesa-Chandler, AZ,  West, RED
+273, Pine Bluff, AR,  South, RED
+274, Pittsburgh, PA,  Northeast, RED
+275, Pittsfield, MA,  Northeast, BLUE
+276, Pocatello, ID,  West, RED
+277, Portland-South Portland, ME,  Northeast, BLUE
+278, Portland-Vancouver-Hillsboro, OR,  West, BLUE
+279, Port St. Lucie, FL,  South, RED
+280, Poughkeepsie-Newburgh-Middletown, NY,  Northeast, BLUE
+281, Prescott Valley-Prescott, AZ,  West, RED
+282, Providence-Warwick, RI,  Northeast, BLUE
+283, Provo-Orem, UT,  West, RED
+284, Pueblo, CO,  West, BLUE
+285, Punta Gorda, FL,  South, RED
+286, Racine, WI,  Midwest, RED
+287, Raleigh-Cary, NC,  South, RED
+288, Rapid City, SD,  Midwest, RED
+289, Reading, PA,  Northeast, RED
+290, Redding, CA,  West, BLUE
+291, Reno, NV,  West, BLUE
+292, Richmond, VA,  South, BLUE
+293, Riverside-San Bernardino-Ontario, CA,  West, BLUE
+294, Roanoke, VA,  South, BLUE
+295, Rochester, MN,  Midwest, BLUE
+296, Rochester, NY,  Northeast, BLUE
+297, Rockford, IL,  Midwest, BLUE
+298, Rocky Mount, NC,  South, RED
+299, Rome, GA,  South, RED
+300, Sacramento-Roseville-Folsom, CA,  West, BLUE
+301, Saginaw, MI,  Midwest, RED
+302, St. Cloud, MN,  Midwest, BLUE
+303, St. George, UT,  West, RED
+304, St. Joseph, MO,  Midwest, RED
+305, St. Louis, MO,  Midwest, RED
+306, Salem, OR,  West, BLUE
+307, Salinas, CA,  West, BLUE
+308, Salisbury, MD,  South, BLUE
+309, Salt Lake City, UT,  West, RED
+310, San Angelo, TX,  South, RED
+311, San Antonio-New Braunfels, TX,  South, RED
+312, San Diego-Chula Vista-Carlsbad, CA,  West, BLUE
+313, San Francisco-Oakland-Berkeley, CA,  West, BLUE
+314, San Jose-Sunnyvale-Santa Clara, CA,  West, BLUE
+315, San Luis Obispo-Paso Robles, CA,  West, BLUE
+316, Santa Cruz-Watsonville, CA,  West, BLUE
+317, Santa Fe, NM,  West, BLUE
+318, Santa Maria-Santa Barbara, CA,  West, BLUE
+319, Santa Rosa-Petaluma, CA,  West, BLUE
+320, Savannah, GA,  South, RED
+321, Scranton--Wilkes-Barre, PA,  Northeast, RED
+322, Seattle-Tacoma-Bellevue, WA,  West, BLUE
+323, Sebastian-Vero Beach, FL,  South, RED
+324, Sebring-Avon Park, FL,  South, RED
+325, Sheboygan, WI,  Midwest, RED
+326, Sherman-Denison, TX,  South, RED
+327, Shreveport-Bossier City, LA,  South, RED
+328, Sierra Vista-Douglas, AZ,  West, RED
+329, Sioux City, IA,  Midwest, RED
+330, Sioux Falls, SD,  Midwest, RED
+331, South Bend-Mishawaka, IN,  Midwest, RED
+332, Spartanburg, SC,  South, RED
+333, Spokane-Spokane Valley, WA,  West, BLUE
+334, Springfield, IL,  Midwest, BLUE
+335, Springfield, MA,  Northeast, BLUE
+336, Springfield, MO,  Midwest, RED
+337, Springfield, OH,  Midwest, RED
+338, State College, PA,  Northeast, RED
+339, Staunton, VA,  South, BLUE
+340, Stockton, CA,  West, BLUE
+341, Sumter, SC,  South, RED
+342, Syracuse, NY,  Northeast, BLUE
+343, Tallahassee, FL,  South, RED
+344, Tampa-St. Petersburg-Clearwater, FL,  South, RED
+345, Terre Haute, IN,  Midwest, RED
+346, Texarkana, TX,  South, RED
+347, The Villages, FL,  South, RED
+348, Toledo, OH,  Midwest, RED
+349, Topeka, KS,  Midwest, RED
+350, Trenton-Princeton, NJ,  Northeast, BLUE
+351, Tucson, AZ,  West, RED
+352, Tulsa, OK,  South, RED
+353, Tuscaloosa, AL,  South, RED
+354, Twin Falls, ID,  West, RED
+355, Tyler, TX,  South, RED
+356, Urban Honolulu, HI,  West, BLUE
+357, Utica-Rome, NY,  Northeast, BLUE
+358, Valdosta, GA,  South, RED
+359, Vallejo, CA,  West, BLUE
+360, Victoria, TX,  South, RED
+361, Vineland-Bridgeton, NJ,  Northeast, BLUE
+362, Virginia Beach-Norfolk-Newport News, VA,  South, BLUE
+363, Visalia, CA,  West, BLUE
+364, Waco, TX,  South, RED
+365, Walla Walla, WA,  West, BLUE
+366, Warner Robins, GA,  South, RED
+367, Washington-Arlington-Alexandria, DCrea, , 
+368, Waterloo-Cedar Falls, IA,  Midwest, RED
+369, Watertown-Fort Drum, NY,  Northeast, BLUE
+370, Wausau-Weston, WI,  Midwest, RED
+371, Weirton-Steubenville, WV,  South, RED
+372, Wenatchee, WA,  West, BLUE
+373, Wheeling, WV,  South, RED
+374, Wichita, KS,  Midwest, RED
+375, Wichita Falls, TX,  South, RED
+376, Williamsport, PA,  Northeast, RED
+377, Wilmington, NC,  South, RED
+378, Winchester, VA,  South, BLUE
+379, Winston-Salem, NC,  South, RED
+380, Worcester, MA,  Northeast, BLUE
+381, Yakima, WA,  West, BLUE
+382, York-Hanover, PA,  Northeast, RED
+383, Youngstown-Warren-Boardman, OH,  Midwest, RED
+384, Yuba City, CA,  West, BLUE
+385, Yuma, AZ,  West, RED
+386, Aberdeen, SD,  Midwest, RED
+387, Aberdeen, WA,  West, BLUE
+388, Ada, OK,  South, RED
+389, Adrian, MI,  Midwest, RED
+390, Alamogordo, NM,  West, BLUE
+391, Albemarle, NC,  South, RED
+392, Albert Lea, MN,  Midwest, BLUE
+393, Albertville, AL,  South, RED
+394, Alexander City, AL,  South, RED
+395, Alexandria, MN,  Midwest, BLUE
+396, Alice, TX,  South, RED
+397, Alma, MI,  Midwest, RED
+398, Alpena, MI,  Midwest, RED
+399, Altus, OK,  South, RED
+400, Americus, GA,  South, RED
+401, Amsterdam, NY,  Northeast, BLUE
+402, Andrews, TX,  South, RED
+403, Angola, IN,  Midwest, RED
+404, Arcadia, FL,  South, RED
+405, Ardmore, OK,  South, RED
+406, Arkadelphia, AR,  South, RED
+407, Ashland, OH,  Midwest, RED
+408, Ashtabula, OH,  Midwest, RED
+409, Astoria, OR,  West, BLUE
+410, Atchison, KS,  Midwest, RED
+411, Athens, OH,  Midwest, RED
+412, Athens, TN,  South, RED
+413, Athens, TX,  South, RED
+414, Atmore, AL,  South, RED
+415, Auburn, IN,  Midwest, RED
+416, Auburn, NY,  Northeast, BLUE
+417, Augusta-Waterville, ME,  Northeast, BLUE
+418, Austin, MN,  Midwest, BLUE
+419, Bainbridge, GA,  South, RED
+420, Baraboo, WI,  Midwest, RED
+421, Bardstown, KY,  South, RED
+422, Barre, VT,  Northeast, BLUE
+423, Bartlesville, OK,  South, RED
+424, Batavia, NY,  Northeast, BLUE
+425, Batesville, AR,  South, RED
+426, Bay City, TX,  South, RED
+427, Beatrice, NE,  Midwest, RED
+428, Beaver Dam, WI,  Midwest, RED
+429, Bedford, IN,  Midwest, RED
+430, Beeville, TX,  South, RED
+431, Bellefontaine, OH,  Midwest, RED
+432, Bemidji, MN,  Midwest, BLUE
+433, Bennettsville, SC,  South, RED
+434, Bennington, VT,  Northeast, BLUE
+435, Berlin, NH,  Northeast, BLUE
+436, Big Rapids, MI,  Midwest, RED
+437, Big Spring, TX,  South, RED
+438, Big Stone Gap, VA,  South, BLUE
+439, Blackfoot, ID,  West, RED
+440, Bluefield, WV,  South, RED
+441, Blytheville, AR,  South, RED
+442, Bogalusa, LA,  South, RED
+443, Bonham, TX,  South, RED
+444, Boone, NC,  South, RED
+445, Borger, TX,  South, RED
+446, Bozeman, MT,  West, RED
+447, Bradford, PA,  Northeast, RED
+448, Brainerd, MN,  Midwest, BLUE
+449, Branson, MO,  Midwest, RED
+450, Breckenridge, CO,  West, BLUE
+451, Brenham, TX,  South, RED
+452, Brevard, NC,  South, RED
+453, Brookhaven, MS,  South, RED
+454, Brookings, OR,  West, BLUE
+455, Brookings, SD,  Midwest, RED
+456, Brownsville, TN,  South, RED
+457, Brownwood, TX,  South, RED
+458, Bucyrus-Galion, OH,  Midwest, RED
+459, Burley, ID,  West, RED
+460, Burlington, IA,  Midwest, RED
+461, Butte-Silver Bow, MT,  West, RED
+462, Cadillac, MI,  Midwest, RED
+463, Calhoun, GA,  South, RED
+464, Cambridge, MD,  South, BLUE
+465, Cambridge, OH,  Midwest, RED
+466, Camden, AR,  South, RED
+467, Campbellsville, KY,  South, RED
+468, on City, CO,  West, BLUE
+469, Carlsbad-Artesia, NM,  West, BLUE
+470, Carroll, IA,  Midwest, RED
+471, Cedar City, UT,  West, RED
+472, Cedartown, GA,  South, RED
+473, Celina, OH,  Midwest, RED
+474, Central City, KY,  South, RED
+475, Centralia, IL,  Midwest, BLUE
+476, Centralia, WA,  West, BLUE
+477, Charleston-Mattoon, IL,  Midwest, BLUE
+478, Chillicothe, OH,  Midwest, RED
+479, Clarksburg, WV,  South, RED
+480, Clarksdale, MS,  South, RED
+481, Clearlake, CA,  West, BLUE
+482, Cleveland, MS,  South, RED
+483, Clewiston, FL,  South, RED
+484, Clinton, IA,  Midwest, RED
+485, Clovis, NM,  West, BLUE
+486, Coffeyville, KS,  Midwest, RED
+487, Coldwater, MI,  Midwest, RED
+488, Columbus, MS,  South, RED
+489, Columbus, NE,  Midwest, RED
+490, Concord, NH,  Northeast, BLUE
+491, Connersville, IN,  Midwest, RED
+492, Cookeville, TN,  South, RED
+493, Coos Bay, OR,  West, BLUE
+494, Cordele, GA,  South, RED
+495, Corinth, MS,  South, RED
+496, Cornelia, GA,  South, RED
+497, Corning, NY,  Northeast, BLUE
+498, Corsicana, TX,  South, RED
+499, Cortland, NY,  Northeast, BLUE
+500, Coshocton, OH,  Midwest, RED
+501, Craig, CO,  West, BLUE
+502, Crawfordsville, IN,  Midwest, RED
+503, Crescent City, CA,  West, BLUE
+504, Crossville, TN,  South, RED
+505, Cullman, AL,  South, RED
+506, Cullowhee, NC,  South, RED
+507, Danville, KY,  South, RED
+508, Danville, VA,  South, BLUE
+509, Dayton, TN,  South, RED
+510, Decatur, IN,  Midwest, RED
+511, Defiance, OH,  Midwest, RED
+512, Del Rio, TX,  South, RED
+513, Deming, NM,  West, BLUE
+514, DeRidder, LA,  South, RED
+515, Dickinson, ND,  Midwest, RED
+516, Dixon, IL,  Midwest, BLUE
+517, Dodge City, KS,  Midwest, RED
+518, Douglas, GA,  South, RED
+519, Dublin, GA,  South, RED
+520, DuBois, PA,  Northeast, RED
+521, Dumas, TX,  South, RED
+522, Duncan, OK,  South, RED
+523, Durango, CO,  West, BLUE
+524, Durant, OK,  South, RED
+525, Dyersburg, TN,  South, RED
+526, Eagle Pass, TX,  South, RED
+527, Easton, MD,  South, BLUE
+528, Edwards, CO,  West, BLUE
+529, Effingham, IL,  Midwest, BLUE
+530, El Campo, TX,  South, RED
+531, El Dorado, AR,  South, RED
+532, Elizabeth City, NC,  South, RED
+533, Elk City, OK,  South, RED
+534, Elkins, WV,  South, RED
+535, Elko, NV,  West, BLUE
+536, Ellensburg, WA,  West, BLUE
+537, Emporia, KS,  Midwest, RED
+538, Enterprise, AL,  South, RED
+539, Escanaba, MI,  Midwest, RED
+540, ola, NM,  West, BLUE
+541, Eufaula, AL,  South, RED
+542, Eureka-Arcata, CA,  West, BLUE
+543, Evanston, WY,  West, RED
+544, Fairfield, IA,  Midwest, RED
+545, Fairmont, MN,  Midwest, BLUE
+546, Fairmont, WV,  South, RED
+547, Fallon, NV,  West, BLUE
+548, Faribault-Northfield, MN,  Midwest, BLUE
+549, Farmington, MO,  Midwest, RED
+550, Fergus Falls, MN,  Midwest, BLUE
+551, Fernley, NV,  West, BLUE
+552, Findlay, OH,  Midwest, RED
+553, Fitzgerald, GA,  South, RED
+554, Forest City, NC,  South, RED
+555, Forrest City, AR,  South, RED
+556, Fort Dodge, IA,  Midwest, RED
+557, Fort Leonard Wood, MO,  Midwest, RED
+558, Fort Madison-Keokuk, IA,  Midwest, RED
+559, Fort Morgan, CO,  West, BLUE
+560, Fort Payne, AL,  South, RED
+561, Fort Polk South, LA,  South, RED
+562, Frankfort, IN,  Midwest, RED
+563, Frankfort, KY,  South, RED
+564, Fredericksburg, TX,  South, RED
+565, Freeport, IL,  Midwest, BLUE
+566, Fremont, NE,  Midwest, RED
+567, Fremont, OH,  Midwest, RED
+568, Gaffney, SC,  South, RED
+569, Gainesville, TX,  South, RED
+570, Galesburg, IL,  Midwest, BLUE
+571, Gallup, NM,  West, BLUE
+572, Garden City, KS,  Midwest, RED
+573, Gardnerville Ranchos, NV,  West, BLUE
+574, Georgetown, SC,  South, RED
+575, Gillette, WY,  West, RED
+576, Glasgow, KY,  South, RED
+577, Glenwood Springs, CO,  West, BLUE
+578, Gloversville, NY,  Northeast, BLUE
+579, Granbury, TX,  South, RED
+580, Grand Rapids, MN,  Midwest, BLUE
+581, Grants, NM,  West, BLUE
+582, Great Bend, KS,  Midwest, RED
+583, Greeneville, TN,  South, RED
+584, Greensburg, IN,  Midwest, RED
+585, Greenville, MS,  South, RED
+586, Greenville, OH,  Midwest, RED
+587, Greenwood, MS,  South, RED
+588, Greenwood, SC,  South, RED
+589, Grenada, MS,  South, RED
+590, Guymon, OK,  South, RED
+591, Hailey, ID,  West, RED
+592, Hannibal, MO,  Midwest, RED
+593, Harrison, AR,  South, RED
+594, Hastings, NE,  Midwest, RED
+595, Hays, KS,  Midwest, RED
+596, Heber, UT,  West, RED
+597, Helena, MT,  West, RED
+598, Helena-West Helena, AR,  South, RED
+599, Henderson, NC,  South, RED
+600, Hereford, TX,  South, RED
+601, Hermiston-Pendleton, OR,  West, BLUE
+602, Hillsdale, MI,  Midwest, RED
+603, Hilo, HI,  West, BLUE
+604, Hobbs, NM,  West, BLUE
+605, Holland, MI,  Midwest, RED
+606, Hood River, OR,  West, BLUE
+607, Hope, AR,  South, RED
+608, Houghton, MI,  Midwest, RED
+609, Hudson, NY,  Northeast, BLUE
+610, Huntingdon, PA,  Northeast, RED
+611, Huntington, IN,  Midwest, RED
+612, Huntsville, TX,  South, RED
+613, Huron, SD,  Midwest, RED
+614, Hutchinson, KS,  Midwest, RED
+615, Hutchinson, MN,  Midwest, BLUE
+616, Indiana, PA,  Northeast, RED
+617, Indianola, MS,  South, RED
+618, Iron Mountain, MI,  Midwest, RED
+619, Jackson, OH,  Midwest, RED
+620, Jackson, WY,  West, RED
+621, Jacksonville, IL,  Midwest, BLUE
+622, Jacksonville, TX,  South, RED
+623, Jamestown, ND,  Midwest, RED
+624, Jamestown-Dunkirk-Fredonia, NY,  Northeast, BLUE
+625, Jasper, AL,  South, RED
+626, Jasper, IN,  Midwest, RED
+627, Jefferson, GA,  South, RED
+628, Jennings, LA,  South, RED
+629, Jesup, GA,  South, RED
+630, Juneau, AK,  West, RED
+631, Kalispell, MT,  West, RED
+632, Kapaa, HI,  West, BLUE
+633, Kearney, NE,  Midwest, RED
+634, Keene, NH,  Northeast, BLUE
+635, Kendallville, IN,  Midwest, RED
+636, Kennett, MO,  Midwest, RED
+637, Kerrville, TX,  South, RED
+638, Ketchikan, AK,  West, RED
+639, Key West, FL,  South, RED
+640, Kill Devil Hills, NC,  South, RED
+641, Kingsville, TX,  South, RED
+642, Kinston, NC,  South, RED
+643, Kirksville, MO,  Midwest, RED
+644, Klamath Falls, OR,  West, BLUE
+645, Laconia, NH,  Northeast, BLUE
+646, La Grande, OR,  West, BLUE
+647, LaGrange, GA,  South, RED
+648, Lake City, FL,  South, RED
+649, Lamesa, TX,  South, RED
+650, Laramie, WY,  West, RED
+651, Las Vegas, NM,  West, BLUE
+652, Laurel, MS,  South, RED
+653, Laurinburg, NC,  South, RED
+654, Lawrenceburg, TN,  South, RED
+655, Lebanon, MO,  Midwest, RED
+656, Lebanon, NH,  Northeast, BLUE
+657, Levelland, TX,  South, RED
+658, Lewisburg, PA,  Northeast, RED
+659, Lewisburg, TN,  South, RED
+660, Lewistown, PA,  Northeast, RED
+661, Lexington, NE,  Midwest, RED
+662, Liberal, KS,  Midwest, RED
+663, Lincoln, IL,  Midwest, BLUE
+664, Lock Haven, PA,  Northeast, RED
+665, Logansport, IN,  Midwest, RED
+666, London, KY,  South, RED
+667, Los Alamos, NM,  West, BLUE
+668, Ludington, MI,  Midwest, RED
+669, Lufkin, TX,  South, RED
+670, Lumberton, NC,  South, RED
+671, Macomb, IL,  Midwest, BLUE
+672, Madison, IN,  Midwest, RED
+673, Madisonville, KY,  South, RED
+674, Magnolia, AR,  South, RED
+675, Malone, NY,  Northeast, BLUE
+676, Malvern, AR,  South, RED
+677, Manitowoc, WI,  Midwest, RED
+678, Marietta, OH,  Midwest, RED
+679, Marinette, WI,  Midwest, RED
+680, Marion, IN,  Midwest, RED
+681, Marion, NC,  South, RED
+682, Marion, OH,  Midwest, RED
+683, Marquette, MI,  Midwest, RED
+684, Marshall, MN,  Midwest, BLUE
+685, Marshall, MO,  Midwest, RED
+686, Marshalltown, IA,  Midwest, RED
+687, Martin, TN,  South, RED
+688, Martinsville, VA,  South, BLUE
+689, Maryville, MO,  Midwest, RED
+690, Mason City, IA,  Midwest, RED
+691, Mayfield, KY,  South, RED
+692, Maysville, KY,  South, RED
+693, McAlester, OK,  South, RED
+694, McComb, MS,  South, RED
+695, McMinnville, TN,  South, RED
+696, McPherson, KS,  Midwest, RED
+697, Meadville, PA,  Northeast, RED
+698, Menomonie, WI,  Midwest, RED
+699, Meridian, MS,  South, RED
+700, Mexico, MO,  Midwest, RED
+701, Miami, OK,  South, RED
+702, Middlesborough, KY,  South, RED
+703, Milledgeville, GA,  South, RED
+704, Minden, LA,  South, RED
+705, Mineral Wells, TX,  South, RED
+706, Minot, ND,  Midwest, RED
+707, Mitchell, SD,  Midwest, RED
+708, Moberly, MO,  Midwest, RED
+709, Montrose, CO,  West, BLUE
+710, Morehead City, NC,  South, RED
+711, Morgan City, LA,  South, RED
+712, Moscow, ID,  West, RED
+713, Moses Lake, WA,  West, BLUE
+714, Moultrie, GA,  South, RED
+715, Mountain Home, AR,  South, RED
+716, Mountain Home, ID,  West, RED
+717, Mount Airy, NC,  South, RED
+718, Mount Gay-Shamrock, WV,  South, RED
+719, Mount Pleasant, MI,  Midwest, RED
+720, Mount Pleasant, TX,  South, RED
+721, Mount Sterling, KY,  South, RED
+722, Mount Vernon, IL,  Midwest, BLUE
+723, Mount Vernon, OH,  Midwest, RED
+724, Murray, KY,  South, RED
+725, Muscatine, IA,  Midwest, RED
+726, Muskogee, OK,  South, RED
+727, Nacogdoches, TX,  South, RED
+728, Natchez, MS,  South, RED
+729, Natchitoches, LA,  South, RED
+730, Newberry, SC,  South, RED
+731, New Castle, IN,  Midwest, RED
+732, New Castle, PA,  Northeast, RED
+733, New Philadelphia-Dover, OH,  Midwest, RED
+734, Newport, OR,  West, BLUE
+735, Newport, TN,  South, RED
+736, New Ulm, MN,  Midwest, BLUE
+737, Nogales, AZ,  West, RED
+738, Norfolk, NE,  Midwest, RED
+739, North Platte, NE,  Midwest, RED
+740, North Vernon, IN,  Midwest, RED
+741, North Wilkesboro, NC,  South, RED
+742, Norwalk, OH,  Midwest, RED
+743, Oak Harbor, WA,  West, BLUE
+744, Ogdensburg-Massena, NY,  Northeast, BLUE
+745, Oil City, PA,  Northeast, RED
+746, Okeechobee, FL,  South, RED
+747, Olean, NY,  Northeast, BLUE
+748, Oneonta, NY,  Northeast, BLUE
+749, Ontario, OR,  West, BLUE
+750, Opelousas, LA,  South, RED
+751, Orangeburg, SC,  South, RED
+752, Oskaloosa, IA,  Midwest, RED
+753, Othello, WA,  West, BLUE
+754, Ottawa, IL,  Midwest, BLUE
+755, Ottawa, KS,  Midwest, RED
+756, Ottumwa, IA,  Midwest, RED
+757, Owatonna, MN,  Midwest, BLUE
+758, Oxford, MS,  South, RED
+759, Ozark, AL,  South, RED
+760, Paducah, KY,  South, RED
+761, Pahrump, NV,  West, BLUE
+762, Palatka, FL,  South, RED
+763, Palestine, TX,  South, RED
+764, Pampa, TX,  South, RED
+765, Paragould, AR,  South, RED
+766, Paris, TN,  South, RED
+767, Paris, TX,  South, RED
+768, Parsons, KS,  Midwest, RED
+769, Payson, AZ,  West, RED
+770, Pearsall, TX,  South, RED
+771, Pecos, TX,  South, RED
+772, Pella, IA,  Midwest, RED
+773, Peru, IN,  Midwest, RED
+774, Picayune, MS,  South, RED
+775, Pierre, SD,  Midwest, RED
+776, Pinehurst-Southern Pines, NC,  South, RED
+777, Pittsburg, KS,  Midwest, RED
+778, Plainview, TX,  South, RED
+779, Platteville, WI,  Midwest, RED
+780, Plattsburgh, NY,  Northeast, BLUE
+781, Plymouth, IN,  Midwest, RED
+782, Point Pleasant, WV,  South, RED
+783, Ponca City, OK,  South, RED
+784, Pontiac, IL,  Midwest, BLUE
+785, Poplar Bluff, MO,  Midwest, RED
+786, Portales, NM,  West, BLUE
+787, Port Angeles, WA,  West, BLUE
+788, Port Lavaca, TX,  South, RED
+789, Portsmouth, OH,  Midwest, RED
+790, Pottsville, PA,  Northeast, RED
+791, Price, UT,  West, RED
+792, Prineville, OR,  West, BLUE
+793, Pullman, WA,  West, BLUE
+794, Quincy, IL,  Midwest, BLUE
+795, Raymondville, TX,  South, RED
+796, Red Bluff, CA,  West, BLUE
+797, Red Wing, MN,  Midwest, BLUE
+798, Rexburg, ID,  West, RED
+799, Richmond, IN,  Midwest, RED
+800, Richmond-Berea, KY,  South, RED
+801, Rio Grande City-Roma, TX,  South, RED
+802, Riverton, WY,  West, RED
+803, Roanoke Rapids, NC,  South, RED
+804, Rochelle, IL,  Midwest, BLUE
+805, Rockingham, NC,  South, RED
+806, Rockport, TX,  South, RED
+807, Rock Springs, WY,  West, RED
+808, Rolla, MO,  Midwest, RED
+809, Roseburg, OR,  West, BLUE
+810, Roswell, NM,  West, BLUE
+811, Ruidoso, NM,  West, BLUE
+812, Russellville, AR,  South, RED
+813, Ruston, LA,  South, RED
+814, Rutland, VT,  Northeast, BLUE
+815, Safford, AZ,  West, RED
+816, St. Marys, GA,  South, RED
+817, St. Marys, PA,  Northeast, RED
+818, Salem, OH,  Midwest, RED
+819, Salina, KS,  Midwest, RED
+820, Sandpoint, ID,  West, RED
+821, Sandusky, OH,  Midwest, RED
+822, Sanford, NC,  South, RED
+823, Sault Ste. Marie, MI,  Midwest, RED
+824, Sayre, PA,  Northeast, RED
+825, Scottsbluff, NE,  Midwest, RED
+826, Scottsboro, AL,  South, RED
+827, Scottsburg, IN,  Midwest, RED
+828, Searcy, AR,  South, RED
+829, Sedalia, MO,  Midwest, RED
+830, Selinsgrove, PA,  Northeast, RED
+831, Selma, AL,  South, RED
+832, Seneca, SC,  South, RED
+833, Seneca Falls, NY,  Northeast, BLUE
+834, Sevierville, TN,  South, RED
+835, Seymour, IN,  Midwest, RED
+836, Shawano, WI,  Midwest, RED
+837, Shawnee, OK,  South, RED
+838, Shelby, NC,  South, RED
+839, Shelbyville, TN,  South, RED
+840, Shelton, WA,  West, BLUE
+841, Sheridan, WY,  West, RED
+842, Show Low, AZ,  West, RED
+843, Sidney, OH,  Midwest, RED
+844, Sikeston, MO,  Midwest, RED
+845, Silver City, NM,  West, BLUE
+846, Snyder, TX,  South, RED
+847, Somerset, KY,  South, RED
+848, Somerset, PA,  Northeast, RED
+849, Sonora, CA,  West, BLUE
+850, Spearfish, SD,  Midwest, RED
+851, Spencer, IA,  Midwest, RED
+852, Spirit Lake, IA,  Midwest, RED
+853, Starkville, MS,  South, RED
+854, Statesboro, GA,  South, RED
+855, Steamboat Springs, CO,  West, BLUE
+856, Stephenville, TX,  South, RED
+857, Sterling, CO,  West, BLUE
+858, Sterling, IL,  Midwest, BLUE
+859, Stevens Point, WI,  Midwest, RED
+860, Stillwater, OK,  South, RED
+861, Storm Lake, IA,  Midwest, RED
+862, Sturgis, MI,  Midwest, RED
+863, Sulphur Springs, TX,  South, RED
+864, Summerville, GA,  South, RED
+865, Sunbury, PA,  Northeast, RED
+866, Susanville, CA,  West, BLUE
+867, Sweetwater, TX,  South, RED
+868, Tahlequah, OK,  South, RED
+869, Talladega-Sylacauga, AL,  South, RED
+870, Taos, NM,  West, BLUE
+871, Taylorville, IL,  Midwest, BLUE
+872, The Dalles, OR,  West, BLUE
+873, Thomaston, GA,  South, RED
+874, Thomasville, GA,  South, RED
+875, Tiffin, OH,  Midwest, RED
+876, Tifton, GA,  South, RED
+877, Toccoa, GA,  South, RED
+878, Torrington, CT,  Northeast, BLUE
+879, Traverse City, MI,  Midwest, RED
+880, Troy, AL,  South, RED
+881, Truckee-Grass Valley, CA,  West, BLUE
+882, Tullahoma-Manchester, TN,  South, RED
+883, Tupelo, MS,  South, RED
+884, Ukiah, CA,  West, BLUE
+885, Union, SC,  South, RED
+886, Union City, TN,  South, RED
+887, Urbana, OH,  Midwest, RED
+888, Uvalde, TX,  South, RED
+889, Van Wert, OH,  Midwest, RED
+890, Vermillion, SD,  Midwest, RED
+891, Vernal, UT,  West, RED
+892, Vernon, TX,  South, RED
+893, Vicksburg, MS,  South, RED
+894, Vidalia, GA,  South, RED
+895, Vincennes, IN,  Midwest, RED
+896, Vineyard Haven, MA,  Northeast, BLUE
+897, Wabash, IN,  Midwest, RED
+898, Wahpeton, ND,  Midwest, RED
+899, Wapakoneta, OH,  Midwest, RED
+900, Warren, PA,  Northeast, RED
+901, Warrensburg, MO,  Midwest, RED
+902, Warsaw, IN,  Midwest, RED
+903, Washington, IN,  Midwest, RED
+904, Washington, NC,  South, RED
+905, Washington Court House, OH,  Midwest, RED
+906, Watertown, SD,  Midwest, RED
+907, Watertown-Fort Atkinson, WI,  Midwest, RED
+908, Wauchula, FL,  South, RED
+909, Waycross, GA,  South, RED
+910, Weatherford, OK,  South, RED
+911, West Plains, MO,  Midwest, RED
+912, West Point, MS,  South, RED
+913, Whitewater, WI,  Midwest, RED
+914, Williston, ND,  Midwest, RED
+915, Willmar, MN,  Midwest, BLUE
+916, Wilmington, OH,  Midwest, RED
+917, Wilson, NC,  South, RED
+918, Winfield, KS,  Midwest, RED
+919, Winnemucca, NV,  West, BLUE
+920, Winona, MN,  Midwest, BLUE
+921, Wisconsin Rapids-Marshfield, WI,  Midwest, RED
+922, Woodward, OK,  South, RED
+923, Wooster, OH,  Midwest, RED
+924, Worthington, MN,  Midwest, BLUE
+925, Yankton, SD,  Midwest, RED
+926, Zanesville, OH,  Midwest, RED
+927, Zapata, TX,  South, RED

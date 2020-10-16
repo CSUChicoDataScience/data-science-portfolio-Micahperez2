@@ -1,0 +1,928 @@
+City, State,  Region, Political Leaning
+United States, US,  US, RED
+Abilene, TX,  South, RED
+Akron, OH,  Midwest, RED
+Albany, GA,  South, RED
+Albany-Lebanon, OR,  West, BLUE
+Albany-Schenectady-Troy, NY,  Northeast, BLUE
+Albuquerque, NM,  West, BLUE
+Alexandria, LA,  South, RED
+Allentown-Bethlehem-Easton, PA,  Northeast, RED
+Altoona, PA,  Northeast, RED
+Amarillo, TX,  South, RED
+Ames, IA,  Midwest, RED
+Anchorage, AK,  West, RED
+Ann Arbor, MI,  Midwest, RED
+Anniston-Oxford, AL,  South, RED
+Appleton, WI,  Midwest, RED
+Asheville, NC,  South, RED
+Athens-Clarke County, GA,  South, RED
+Atlanta-Sandy Springs-Alpharetta, GA,  South, RED
+Atlantic City-Hammonton, NJ,  Northeast, BLUE
+Auburn-Opelika, AL,  South, RED
+Augusta-Richmond County, GA,  South, RED
+Austin-Round Rock-Georgetown, TX,  South, RED
+Bakersfield, CA,  West, BLUE
+Baltimore-Columbia-Towson, MD,  South, BLUE
+Bangor, ME,  Northeast, BLUE
+Barnstable Town, MA,  Northeast, BLUE
+Baton Rouge, LA,  South, RED
+Battle Creek, MI,  Midwest, RED
+Bay City, MI,  Midwest, RED
+Beaumont-Port Arthur, TX,  South, RED
+Beckley, WV,  South, RED
+Bellingham, WA,  West, BLUE
+Bend, OR,  West, BLUE
+Billings, MT,  West, RED
+Binghamton, NY,  Northeast, BLUE
+Birmingham-Hoover, AL,  South, RED
+Bismarck, ND,  Midwest, RED
+Blacksburg-Christiansburg, VA,  South, BLUE
+Bloomington, IL,  Midwest, BLUE
+Bloomington, IN,  Midwest, RED
+Bloomsburg-Berwick, PA,  Northeast, RED
+Boise City, ID,  West, RED
+Boston-Cambridge-Newton, MA,  Northeast, BLUE
+Boulder, CO,  West, BLUE
+Bowling Green, KY,  South, RED
+Bremerton-Silverdale-Port Orchard, WA,  West, BLUE
+Bridgeport-Stamford-Norwalk, CT,  Northeast, BLUE
+Brownsville-Harlingen, TX,  South, RED
+Brunswick, GA,  South, RED
+Buffalo-Cheektowaga, NY,  Northeast, BLUE
+Burlington, NC,  South, RED
+Burlington-South Burlington, VT,  Northeast, BLUE
+California-Lexington Park, MD,  South, BLUE
+Canton-Massillon, OH,  Midwest, RED
+Cape Coral-Fort Myers, FL,  South, RED
+Cape Girardeau, MO,  Midwest, RED
+Carbondale-Marion, IL,  Midwest, BLUE
+Carson City, NV,  West, BLUE
+Casper, WY,  West, RED
+Cedar Rapids, IA,  Midwest, RED
+Chambersburg-Waynesboro, PA,  Northeast, RED
+Champaign-Urbana, IL,  Midwest, BLUE
+Charleston, WV,  South, RED
+Charleston-North Charleston, SC,  South, RED
+Charlotte-Concord-Gastonia, NC,  South, RED
+Charlottesville, VA,  South, BLUE
+Chattanooga, TN,  South, RED
+Cheyenne, WY,  West, RED
+Chicago-Naperville-Elgin, IL,  Midwest, BLUE
+Chico, CA,  West, BLUE
+Cincinnati, OH,  Midwest, RED
+Clarksville, TN,  South, RED
+Cleveland, TN,  South, RED
+Cleveland-Elyria, OH,  Midwest, RED
+Alene, ID,  West, RED
+College Station-Bryan, TX,  South, RED
+Colorado Springs, CO,  West, BLUE
+Columbia, MO,  Midwest, RED
+Columbia, SC,  South, RED
+Columbus, GA,  South, RED
+Columbus, IN,  Midwest, RED
+Columbus, OH,  Midwest, RED
+Corpus Christi, TX,  South, RED
+Corvallis, OR,  West, BLUE
+Crestview-Fort Walton Beach-Destin, FL,  South, RED
+Cumberland, MD,  South, BLUE
+Dallas-Fort Worth-Arlington, TX,  South, RED
+Dalton, GA,  South, RED
+Danville, IL,  Midwest, BLUE
+Daphne-Fairhope-Foley, AL,  South, RED
+Davenport-Moline-Rock Island, IA,  Midwest, RED
+Dayton-Kettering, OH,  Midwest, RED
+Decatur, AL,  South, RED
+Decatur, IL,  Midwest, BLUE
+Deltona-Daytona Beach-Ormond Beach, FL,  South, RED
+Denver-Aurora-Lakewood, CO,  West, BLUE
+Des Moines-West Des Moines, IA,  Midwest, RED
+Detroit-Warren-Dearborn, MI,  Midwest, RED
+Dothan, AL,  South, RED
+Dover, DE,  South, BLUE
+Dubuque, IA,  Midwest, RED
+Duluth, MN,  Midwest, BLUE
+Durham-Chapel Hill, NC,  South, RED
+East Stroudsburg, PA,  Northeast, RED
+Eau Claire, WI,  Midwest, RED
+El Centro, CA,  West, BLUE
+Elizabethtown-Fort Knox, KY,  South, RED
+Elkhart-Goshen, IN,  Midwest, RED
+Elmira, NY,  Northeast, BLUE
+El Paso, TX,  South, RED
+Enid, OK,  South, RED
+Erie, PA,  Northeast, RED
+Eugene-Springfield, OR,  West, BLUE
+Evansville, IN,  Midwest, RED
+Fairbanks, AK,  West, RED
+Fargo, ND,  Midwest, RED
+Farmington, NM,  West, BLUE
+Fayetteville, NC,  South, RED
+Fayetteville-Springdale-Rogers, AR,  South, RED
+Flagstaff, AZ,  West, RED
+Flint, MI,  Midwest, RED
+Florence, SC,  South, RED
+Florence-Muscle Shoals, AL,  South, RED
+Fond du Lac, WI,  Midwest, RED
+Fort Collins, CO,  West, BLUE
+Fort Smith, AR,  South, RED
+Fort Wayne, IN,  Midwest, RED
+Fresno, CA,  West, BLUE
+Gadsden, AL,  South, RED
+Gainesville, FL,  South, RED
+Gainesville, GA,  South, RED
+Gettysburg, PA,  Northeast, RED
+Glens Falls, NY,  Northeast, BLUE
+Goldsboro, NC,  South, RED
+Grand Forks, ND,  Midwest, RED
+Grand Island, NE,  Midwest, RED
+Grand Junction, CO,  West, BLUE
+Grand Rapids-Kentwood, MI,  Midwest, RED
+Grants Pass, OR,  West, BLUE
+Great Falls, MT,  West, RED
+Greeley, CO,  West, BLUE
+Green Bay, WI,  Midwest, RED
+Greensboro-High Point, NC,  South, RED
+Greenville, NC,  South, RED
+Greenville-Anderson, SC,  South, RED
+Gulfport-Biloxi, MS,  South, RED
+Hagerstown-Martinsburg, MD,  South, BLUE
+Hammond, LA,  South, RED
+Hanford-Corcoran, CA,  West, BLUE
+Harrisburg-Carlisle, PA,  Northeast, RED
+Harrisonburg, VA,  South, BLUE
+Hartford-East Hartford-Middletown, CT,  Northeast, BLUE
+Hattiesburg, MS,  South, RED
+Hickory-Lenoir-Morganton, NC,  South, RED
+Hilton Head Island-Bluffton, SC,  South, RED
+Hinesville, GA,  South, RED
+Homosassa Springs, FL,  South, RED
+Hot Springs, AR,  South, RED
+Houma-Thibodaux, LA,  South, RED
+Houston-The Woodlands-Sugar Land, TX,  South, RED
+Huntington-Ashland, WV,  South, RED
+Huntsville, AL,  South, RED
+Idaho Falls, ID,  West, RED
+Indianapolis-Carmel-Anderson, IN,  Midwest, RED
+Iowa City, IA,  Midwest, RED
+Ithaca, NY,  Northeast, BLUE
+Jackson, MI,  Midwest, RED
+Jackson, MS,  South, RED
+Jackson, TN,  South, RED
+Jacksonville, FL,  South, RED
+Jacksonville, NC,  South, RED
+Janesville-Beloit, WI,  Midwest, RED
+Jefferson City, MO,  Midwest, RED
+Johnson City, TN,  South, RED
+Johnstown, PA,  Northeast, RED
+Jonesboro, AR,  South, RED
+Joplin, MO,  Midwest, RED
+Kahului-Wailuku-Lahaina, HI,  West, BLUE
+Kalamazoo-Portage, MI,  Midwest, RED
+Kankakee, IL,  Midwest, BLUE
+Kansas City, MO,  Midwest, RED
+Kennewick-Richland, WA,  West, BLUE
+Killeen-Temple, TX,  South, RED
+Kingsport-Bristol, TN,  South, RED
+Kingston, NY,  Northeast, BLUE
+Knoxville, TN,  South, RED
+Kokomo, IN,  Midwest, RED
+La Crosse-Onalaska, WI,  Midwest, RED
+Lafayette, LA,  South, RED
+Lafayette-West Lafayette, IN,  Midwest, RED
+Lake Charles, LA,  South, RED
+Lake Havasu City-Kingman, AZ,  West, RED
+Lakeland-Winter Haven, FL,  South, RED
+Lancaster, PA,  Northeast, RED
+Lansing-East Lansing, MI,  Midwest, RED
+Laredo, TX,  South, RED
+Las Cruces, NM,  West, BLUE
+Las Vegas-Henderson-Paradise, NV,  West, BLUE
+Lawrence, KS,  Midwest, RED
+Lawton, OK,  South, RED
+Lebanon, PA,  Northeast, RED
+Lewiston, ID,  West, RED
+Lewiston-Auburn, ME,  Northeast, BLUE
+Lexington-Fayette, KY,  South, RED
+Lima, OH,  Midwest, RED
+Lincoln, NE,  Midwest, RED
+Little Rock-North Little Rock-Conway, AR,  South, RED
+Logan, UT,  West, RED
+Longview, TX,  South, RED
+Longview, WA,  West, BLUE
+Los Angeles-Long Beach-Anaheim, CA,  West, BLUE
+Louisville/Jefferson County, KY,  South, RED
+Lubbock, TX,  South, RED
+Lynchburg, VA,  South, BLUE
+Macon-Bibb County, GA,  South, RED
+Madera, CA,  West, BLUE
+Madison, WI,  Midwest, RED
+Manchester-Nashua, NH,  Northeast, BLUE
+Manhattan, KS,  Midwest, RED
+Mankato, MN,  Midwest, BLUE
+Mansfield, OH,  Midwest, RED
+McAllen-Edinburg-Mission, TX,  South, RED
+Medford, OR,  West, BLUE
+Memphis, TN,  South, RED
+Merced, CA,  West, BLUE
+Miami-Fort Lauderdale-Pompano Beach, FL,  South, RED
+Michigan City-La Porte, IN,  Midwest, RED
+Midland, MI,  Midwest, RED
+Midland, TX,  South, RED
+Milwaukee-Waukesha, WI,  Midwest, RED
+Minneapolis-St. Paul-Bloomington, MN,  Midwest, BLUE
+Missoula, MT,  West, RED
+Mobile, AL,  South, RED
+Modesto, CA,  West, BLUE
+Monroe, LA,  South, RED
+Monroe, MI,  Midwest, RED
+Montgomery, AL,  South, RED
+Morgantown, WV,  South, RED
+Morristown, TN,  South, RED
+Mount Vernon-Anacortes, WA,  West, BLUE
+Muncie, IN,  Midwest, RED
+Muskegon, MI,  Midwest, RED
+Myrtle Beach-Conway-North Myrtle Beach, SC,  South, RED
+Napa, CA,  West, BLUE
+Naples-Marco Island, FL,  South, RED
+Nashville-Davidson--Murfreesboro--Franklin, TN,  South, RED
+New Bern, NC,  South, RED
+New Haven-Milford, CT,  Northeast, BLUE
+New Orleans-Metairie, LA,  South, RED
+New York-Newark-Jersey City, NY,  Northeast, BLUE
+Niles, MI,  Midwest, RED
+North Port-Sarasota-Bradenton, FL,  South, RED
+Norwich-New London, CT,  Northeast, BLUE
+Ocala, FL,  South, RED
+Ocean City, NJ,  Northeast, BLUE
+Odessa, TX,  South, RED
+Ogden-Clearfield, UT,  West, RED
+Oklahoma City, OK,  South, RED
+Olympia-Lacey-Tumwater, WA,  West, BLUE
+Omaha-Council Bluffs, NE,  Midwest, RED
+Orlando-Kissimmee-Sanford, FL,  South, RED
+Oshkosh-Neenah, WI,  Midwest, RED
+Owensboro, KY,  South, RED
+Oxnard-Thousand Oaks-Ventura, CA,  West, BLUE
+Palm Bay-Melbourne-Titusville, FL,  South, RED
+Panama City, FL,  South, RED
+Parkersburg-Vienna, WV,  South, RED
+Pensacola-Ferry Pass-Brent, FL,  South, RED
+Peoria, IL,  Midwest, BLUE
+Philadelphia-Camden-Wilmington, PArea,  Northeast, RED
+Phoenix-Mesa-Chandler, AZ,  West, RED
+Pine Bluff, AR,  South, RED
+Pittsburgh, PA,  Northeast, RED
+Pittsfield, MA,  Northeast, BLUE
+Pocatello, ID,  West, RED
+Portland-South Portland, ME,  Northeast, BLUE
+Portland-Vancouver-Hillsboro, OR,  West, BLUE
+Port St. Lucie, FL,  South, RED
+Poughkeepsie-Newburgh-Middletown, NY,  Northeast, BLUE
+Prescott Valley-Prescott, AZ,  West, RED
+Providence-Warwick, RI,  Northeast, BLUE
+Provo-Orem, UT,  West, RED
+Pueblo, CO,  West, BLUE
+Punta Gorda, FL,  South, RED
+Racine, WI,  Midwest, RED
+Raleigh-Cary, NC,  South, RED
+Rapid City, SD,  Midwest, RED
+Reading, PA,  Northeast, RED
+Redding, CA,  West, BLUE
+Reno, NV,  West, BLUE
+Richmond, VA,  South, BLUE
+Riverside-San Bernardino-Ontario, CA,  West, BLUE
+Roanoke, VA,  South, BLUE
+Rochester, MN,  Midwest, BLUE
+Rochester, NY,  Northeast, BLUE
+Rockford, IL,  Midwest, BLUE
+Rocky Mount, NC,  South, RED
+Rome, GA,  South, RED
+Sacramento-Roseville-Folsom, CA,  West, BLUE
+Saginaw, MI,  Midwest, RED
+St. Cloud, MN,  Midwest, BLUE
+St. George, UT,  West, RED
+St. Joseph, MO,  Midwest, RED
+St. Louis, MO,  Midwest, RED
+Salem, OR,  West, BLUE
+Salinas, CA,  West, BLUE
+Salisbury, MD,  South, BLUE
+Salt Lake City, UT,  West, RED
+San Angelo, TX,  South, RED
+San Antonio-New Braunfels, TX,  South, RED
+San Diego-Chula Vista-Carlsbad, CA,  West, BLUE
+San Francisco-Oakland-Berkeley, CA,  West, BLUE
+San Jose-Sunnyvale-Santa Clara, CA,  West, BLUE
+San Luis Obispo-Paso Robles, CA,  West, BLUE
+Santa Cruz-Watsonville, CA,  West, BLUE
+Santa Fe, NM,  West, BLUE
+Santa Maria-Santa Barbara, CA,  West, BLUE
+Santa Rosa-Petaluma, CA,  West, BLUE
+Savannah, GA,  South, RED
+Scranton--Wilkes-Barre, PA,  Northeast, RED
+Seattle-Tacoma-Bellevue, WA,  West, BLUE
+Sebastian-Vero Beach, FL,  South, RED
+Sebring-Avon Park, FL,  South, RED
+Sheboygan, WI,  Midwest, RED
+Sherman-Denison, TX,  South, RED
+Shreveport-Bossier City, LA,  South, RED
+Sierra Vista-Douglas, AZ,  West, RED
+Sioux City, IA,  Midwest, RED
+Sioux Falls, SD,  Midwest, RED
+South Bend-Mishawaka, IN,  Midwest, RED
+Spartanburg, SC,  South, RED
+Spokane-Spokane Valley, WA,  West, BLUE
+Springfield, IL,  Midwest, BLUE
+Springfield, MA,  Northeast, BLUE
+Springfield, MO,  Midwest, RED
+Springfield, OH,  Midwest, RED
+State College, PA,  Northeast, RED
+Staunton, VA,  South, BLUE
+Stockton, CA,  West, BLUE
+Sumter, SC,  South, RED
+Syracuse, NY,  Northeast, BLUE
+Tallahassee, FL,  South, RED
+Tampa-St. Petersburg-Clearwater, FL,  South, RED
+Terre Haute, IN,  Midwest, RED
+Texarkana, TX,  South, RED
+The Villages, FL,  South, RED
+Toledo, OH,  Midwest, RED
+Topeka, KS,  Midwest, RED
+Trenton-Princeton, NJ,  Northeast, BLUE
+Tucson, AZ,  West, RED
+Tulsa, OK,  South, RED
+Tuscaloosa, AL,  South, RED
+Twin Falls, ID,  West, RED
+Tyler, TX,  South, RED
+Urban Honolulu, HI,  West, BLUE
+Utica-Rome, NY,  Northeast, BLUE
+Valdosta, GA,  South, RED
+Vallejo, CA,  West, BLUE
+Victoria, TX,  South, RED
+Vineland-Bridgeton, NJ,  Northeast, BLUE
+Virginia Beach-Norfolk-Newport News, VA,  South, BLUE
+Visalia, CA,  West, BLUE
+Waco, TX,  South, RED
+Walla Walla, WA,  West, BLUE
+Warner Robins, GA,  South, RED
+Washington-Arlington-Alexandria, DCrea, , 
+Waterloo-Cedar Falls, IA,  Midwest, RED
+Watertown-Fort Drum, NY,  Northeast, BLUE
+Wausau-Weston, WI,  Midwest, RED
+Weirton-Steubenville, WV,  South, RED
+Wenatchee, WA,  West, BLUE
+Wheeling, WV,  South, RED
+Wichita, KS,  Midwest, RED
+Wichita Falls, TX,  South, RED
+Williamsport, PA,  Northeast, RED
+Wilmington, NC,  South, RED
+Winchester, VA,  South, BLUE
+Winston-Salem, NC,  South, RED
+Worcester, MA,  Northeast, BLUE
+Yakima, WA,  West, BLUE
+York-Hanover, PA,  Northeast, RED
+Youngstown-Warren-Boardman, OH,  Midwest, RED
+Yuba City, CA,  West, BLUE
+Yuma, AZ,  West, RED
+Aberdeen, SD,  Midwest, RED
+Aberdeen, WA,  West, BLUE
+Ada, OK,  South, RED
+Adrian, MI,  Midwest, RED
+Alamogordo, NM,  West, BLUE
+Albemarle, NC,  South, RED
+Albert Lea, MN,  Midwest, BLUE
+Albertville, AL,  South, RED
+Alexander City, AL,  South, RED
+Alexandria, MN,  Midwest, BLUE
+Alice, TX,  South, RED
+Alma, MI,  Midwest, RED
+Alpena, MI,  Midwest, RED
+Altus, OK,  South, RED
+Americus, GA,  South, RED
+Amsterdam, NY,  Northeast, BLUE
+Andrews, TX,  South, RED
+Angola, IN,  Midwest, RED
+Arcadia, FL,  South, RED
+Ardmore, OK,  South, RED
+Arkadelphia, AR,  South, RED
+Ashland, OH,  Midwest, RED
+Ashtabula, OH,  Midwest, RED
+Astoria, OR,  West, BLUE
+Atchison, KS,  Midwest, RED
+Athens, OH,  Midwest, RED
+Athens, TN,  South, RED
+Athens, TX,  South, RED
+Atmore, AL,  South, RED
+Auburn, IN,  Midwest, RED
+Auburn, NY,  Northeast, BLUE
+Augusta-Waterville, ME,  Northeast, BLUE
+Austin, MN,  Midwest, BLUE
+Bainbridge, GA,  South, RED
+Baraboo, WI,  Midwest, RED
+Bardstown, KY,  South, RED
+Barre, VT,  Northeast, BLUE
+Bartlesville, OK,  South, RED
+Batavia, NY,  Northeast, BLUE
+Batesville, AR,  South, RED
+Bay City, TX,  South, RED
+Beatrice, NE,  Midwest, RED
+Beaver Dam, WI,  Midwest, RED
+Bedford, IN,  Midwest, RED
+Beeville, TX,  South, RED
+Bellefontaine, OH,  Midwest, RED
+Bemidji, MN,  Midwest, BLUE
+Bennettsville, SC,  South, RED
+Bennington, VT,  Northeast, BLUE
+Berlin, NH,  Northeast, BLUE
+Big Rapids, MI,  Midwest, RED
+Big Spring, TX,  South, RED
+Big Stone Gap, VA,  South, BLUE
+Blackfoot, ID,  West, RED
+Bluefield, WV,  South, RED
+Blytheville, AR,  South, RED
+Bogalusa, LA,  South, RED
+Bonham, TX,  South, RED
+Boone, NC,  South, RED
+Borger, TX,  South, RED
+Bozeman, MT,  West, RED
+Bradford, PA,  Northeast, RED
+Brainerd, MN,  Midwest, BLUE
+Branson, MO,  Midwest, RED
+Breckenridge, CO,  West, BLUE
+Brenham, TX,  South, RED
+Brevard, NC,  South, RED
+Brookhaven, MS,  South, RED
+Brookings, OR,  West, BLUE
+Brookings, SD,  Midwest, RED
+Brownsville, TN,  South, RED
+Brownwood, TX,  South, RED
+Bucyrus-Galion, OH,  Midwest, RED
+Burley, ID,  West, RED
+Burlington, IA,  Midwest, RED
+Butte-Silver Bow, MT,  West, RED
+Cadillac, MI,  Midwest, RED
+Calhoun, GA,  South, RED
+Cambridge, MD,  South, BLUE
+Cambridge, OH,  Midwest, RED
+Camden, AR,  South, RED
+Campbellsville, KY,  South, RED
+on City, CO,  West, BLUE
+Carlsbad-Artesia, NM,  West, BLUE
+Carroll, IA,  Midwest, RED
+Cedar City, UT,  West, RED
+Cedartown, GA,  South, RED
+Celina, OH,  Midwest, RED
+Central City, KY,  South, RED
+Centralia, IL,  Midwest, BLUE
+Centralia, WA,  West, BLUE
+Charleston-Mattoon, IL,  Midwest, BLUE
+Chillicothe, OH,  Midwest, RED
+Clarksburg, WV,  South, RED
+Clarksdale, MS,  South, RED
+Clearlake, CA,  West, BLUE
+Cleveland, MS,  South, RED
+Clewiston, FL,  South, RED
+Clinton, IA,  Midwest, RED
+Clovis, NM,  West, BLUE
+Coffeyville, KS,  Midwest, RED
+Coldwater, MI,  Midwest, RED
+Columbus, MS,  South, RED
+Columbus, NE,  Midwest, RED
+Concord, NH,  Northeast, BLUE
+Connersville, IN,  Midwest, RED
+Cookeville, TN,  South, RED
+Coos Bay, OR,  West, BLUE
+Cordele, GA,  South, RED
+Corinth, MS,  South, RED
+Cornelia, GA,  South, RED
+Corning, NY,  Northeast, BLUE
+Corsicana, TX,  South, RED
+Cortland, NY,  Northeast, BLUE
+Coshocton, OH,  Midwest, RED
+Craig, CO,  West, BLUE
+Crawfordsville, IN,  Midwest, RED
+Crescent City, CA,  West, BLUE
+Crossville, TN,  South, RED
+Cullman, AL,  South, RED
+Cullowhee, NC,  South, RED
+Danville, KY,  South, RED
+Danville, VA,  South, BLUE
+Dayton, TN,  South, RED
+Decatur, IN,  Midwest, RED
+Defiance, OH,  Midwest, RED
+Del Rio, TX,  South, RED
+Deming, NM,  West, BLUE
+DeRidder, LA,  South, RED
+Dickinson, ND,  Midwest, RED
+Dixon, IL,  Midwest, BLUE
+Dodge City, KS,  Midwest, RED
+Douglas, GA,  South, RED
+Dublin, GA,  South, RED
+DuBois, PA,  Northeast, RED
+Dumas, TX,  South, RED
+Duncan, OK,  South, RED
+Durango, CO,  West, BLUE
+Durant, OK,  South, RED
+Dyersburg, TN,  South, RED
+Eagle Pass, TX,  South, RED
+Easton, MD,  South, BLUE
+Edwards, CO,  West, BLUE
+Effingham, IL,  Midwest, BLUE
+El Campo, TX,  South, RED
+El Dorado, AR,  South, RED
+Elizabeth City, NC,  South, RED
+Elk City, OK,  South, RED
+Elkins, WV,  South, RED
+Elko, NV,  West, BLUE
+Ellensburg, WA,  West, BLUE
+Emporia, KS,  Midwest, RED
+Enterprise, AL,  South, RED
+Escanaba, MI,  Midwest, RED
+ola, NM,  West, BLUE
+Eufaula, AL,  South, RED
+Eureka-Arcata, CA,  West, BLUE
+Evanston, WY,  West, RED
+Fairfield, IA,  Midwest, RED
+Fairmont, MN,  Midwest, BLUE
+Fairmont, WV,  South, RED
+Fallon, NV,  West, BLUE
+Faribault-Northfield, MN,  Midwest, BLUE
+Farmington, MO,  Midwest, RED
+Fergus Falls, MN,  Midwest, BLUE
+Fernley, NV,  West, BLUE
+Findlay, OH,  Midwest, RED
+Fitzgerald, GA,  South, RED
+Forest City, NC,  South, RED
+Forrest City, AR,  South, RED
+Fort Dodge, IA,  Midwest, RED
+Fort Leonard Wood, MO,  Midwest, RED
+Fort Madison-Keokuk, IA,  Midwest, RED
+Fort Morgan, CO,  West, BLUE
+Fort Payne, AL,  South, RED
+Fort Polk South, LA,  South, RED
+Frankfort, IN,  Midwest, RED
+Frankfort, KY,  South, RED
+Fredericksburg, TX,  South, RED
+Freeport, IL,  Midwest, BLUE
+Fremont, NE,  Midwest, RED
+Fremont, OH,  Midwest, RED
+Gaffney, SC,  South, RED
+Gainesville, TX,  South, RED
+Galesburg, IL,  Midwest, BLUE
+Gallup, NM,  West, BLUE
+Garden City, KS,  Midwest, RED
+Gardnerville Ranchos, NV,  West, BLUE
+Georgetown, SC,  South, RED
+Gillette, WY,  West, RED
+Glasgow, KY,  South, RED
+Glenwood Springs, CO,  West, BLUE
+Gloversville, NY,  Northeast, BLUE
+Granbury, TX,  South, RED
+Grand Rapids, MN,  Midwest, BLUE
+Grants, NM,  West, BLUE
+Great Bend, KS,  Midwest, RED
+Greeneville, TN,  South, RED
+Greensburg, IN,  Midwest, RED
+Greenville, MS,  South, RED
+Greenville, OH,  Midwest, RED
+Greenwood, MS,  South, RED
+Greenwood, SC,  South, RED
+Grenada, MS,  South, RED
+Guymon, OK,  South, RED
+Hailey, ID,  West, RED
+Hannibal, MO,  Midwest, RED
+Harrison, AR,  South, RED
+Hastings, NE,  Midwest, RED
+Hays, KS,  Midwest, RED
+Heber, UT,  West, RED
+Helena, MT,  West, RED
+Helena-West Helena, AR,  South, RED
+Henderson, NC,  South, RED
+Hereford, TX,  South, RED
+Hermiston-Pendleton, OR,  West, BLUE
+Hillsdale, MI,  Midwest, RED
+Hilo, HI,  West, BLUE
+Hobbs, NM,  West, BLUE
+Holland, MI,  Midwest, RED
+Hood River, OR,  West, BLUE
+Hope, AR,  South, RED
+Houghton, MI,  Midwest, RED
+Hudson, NY,  Northeast, BLUE
+Huntingdon, PA,  Northeast, RED
+Huntington, IN,  Midwest, RED
+Huntsville, TX,  South, RED
+Huron, SD,  Midwest, RED
+Hutchinson, KS,  Midwest, RED
+Hutchinson, MN,  Midwest, BLUE
+Indiana, PA,  Northeast, RED
+Indianola, MS,  South, RED
+Iron Mountain, MI,  Midwest, RED
+Jackson, OH,  Midwest, RED
+Jackson, WY,  West, RED
+Jacksonville, IL,  Midwest, BLUE
+Jacksonville, TX,  South, RED
+Jamestown, ND,  Midwest, RED
+Jamestown-Dunkirk-Fredonia, NY,  Northeast, BLUE
+Jasper, AL,  South, RED
+Jasper, IN,  Midwest, RED
+Jefferson, GA,  South, RED
+Jennings, LA,  South, RED
+Jesup, GA,  South, RED
+Juneau, AK,  West, RED
+Kalispell, MT,  West, RED
+Kapaa, HI,  West, BLUE
+Kearney, NE,  Midwest, RED
+Keene, NH,  Northeast, BLUE
+Kendallville, IN,  Midwest, RED
+Kennett, MO,  Midwest, RED
+Kerrville, TX,  South, RED
+Ketchikan, AK,  West, RED
+Key West, FL,  South, RED
+Kill Devil Hills, NC,  South, RED
+Kingsville, TX,  South, RED
+Kinston, NC,  South, RED
+Kirksville, MO,  Midwest, RED
+Klamath Falls, OR,  West, BLUE
+Laconia, NH,  Northeast, BLUE
+La Grande, OR,  West, BLUE
+LaGrange, GA,  South, RED
+Lake City, FL,  South, RED
+Lamesa, TX,  South, RED
+Laramie, WY,  West, RED
+Las Vegas, NM,  West, BLUE
+Laurel, MS,  South, RED
+Laurinburg, NC,  South, RED
+Lawrenceburg, TN,  South, RED
+Lebanon, MO,  Midwest, RED
+Lebanon, NH,  Northeast, BLUE
+Levelland, TX,  South, RED
+Lewisburg, PA,  Northeast, RED
+Lewisburg, TN,  South, RED
+Lewistown, PA,  Northeast, RED
+Lexington, NE,  Midwest, RED
+Liberal, KS,  Midwest, RED
+Lincoln, IL,  Midwest, BLUE
+Lock Haven, PA,  Northeast, RED
+Logansport, IN,  Midwest, RED
+London, KY,  South, RED
+Los Alamos, NM,  West, BLUE
+Ludington, MI,  Midwest, RED
+Lufkin, TX,  South, RED
+Lumberton, NC,  South, RED
+Macomb, IL,  Midwest, BLUE
+Madison, IN,  Midwest, RED
+Madisonville, KY,  South, RED
+Magnolia, AR,  South, RED
+Malone, NY,  Northeast, BLUE
+Malvern, AR,  South, RED
+Manitowoc, WI,  Midwest, RED
+Marietta, OH,  Midwest, RED
+Marinette, WI,  Midwest, RED
+Marion, IN,  Midwest, RED
+Marion, NC,  South, RED
+Marion, OH,  Midwest, RED
+Marquette, MI,  Midwest, RED
+Marshall, MN,  Midwest, BLUE
+Marshall, MO,  Midwest, RED
+Marshalltown, IA,  Midwest, RED
+Martin, TN,  South, RED
+Martinsville, VA,  South, BLUE
+Maryville, MO,  Midwest, RED
+Mason City, IA,  Midwest, RED
+Mayfield, KY,  South, RED
+Maysville, KY,  South, RED
+McAlester, OK,  South, RED
+McComb, MS,  South, RED
+McMinnville, TN,  South, RED
+McPherson, KS,  Midwest, RED
+Meadville, PA,  Northeast, RED
+Menomonie, WI,  Midwest, RED
+Meridian, MS,  South, RED
+Mexico, MO,  Midwest, RED
+Miami, OK,  South, RED
+Middlesborough, KY,  South, RED
+Milledgeville, GA,  South, RED
+Minden, LA,  South, RED
+Mineral Wells, TX,  South, RED
+Minot, ND,  Midwest, RED
+Mitchell, SD,  Midwest, RED
+Moberly, MO,  Midwest, RED
+Montrose, CO,  West, BLUE
+Morehead City, NC,  South, RED
+Morgan City, LA,  South, RED
+Moscow, ID,  West, RED
+Moses Lake, WA,  West, BLUE
+Moultrie, GA,  South, RED
+Mountain Home, AR,  South, RED
+Mountain Home, ID,  West, RED
+Mount Airy, NC,  South, RED
+Mount Gay-Shamrock, WV,  South, RED
+Mount Pleasant, MI,  Midwest, RED
+Mount Pleasant, TX,  South, RED
+Mount Sterling, KY,  South, RED
+Mount Vernon, IL,  Midwest, BLUE
+Mount Vernon, OH,  Midwest, RED
+Murray, KY,  South, RED
+Muscatine, IA,  Midwest, RED
+Muskogee, OK,  South, RED
+Nacogdoches, TX,  South, RED
+Natchez, MS,  South, RED
+Natchitoches, LA,  South, RED
+Newberry, SC,  South, RED
+New Castle, IN,  Midwest, RED
+New Castle, PA,  Northeast, RED
+New Philadelphia-Dover, OH,  Midwest, RED
+Newport, OR,  West, BLUE
+Newport, TN,  South, RED
+New Ulm, MN,  Midwest, BLUE
+Nogales, AZ,  West, RED
+Norfolk, NE,  Midwest, RED
+North Platte, NE,  Midwest, RED
+North Vernon, IN,  Midwest, RED
+North Wilkesboro, NC,  South, RED
+Norwalk, OH,  Midwest, RED
+Oak Harbor, WA,  West, BLUE
+Ogdensburg-Massena, NY,  Northeast, BLUE
+Oil City, PA,  Northeast, RED
+Okeechobee, FL,  South, RED
+Olean, NY,  Northeast, BLUE
+Oneonta, NY,  Northeast, BLUE
+Ontario, OR,  West, BLUE
+Opelousas, LA,  South, RED
+Orangeburg, SC,  South, RED
+Oskaloosa, IA,  Midwest, RED
+Othello, WA,  West, BLUE
+Ottawa, IL,  Midwest, BLUE
+Ottawa, KS,  Midwest, RED
+Ottumwa, IA,  Midwest, RED
+Owatonna, MN,  Midwest, BLUE
+Oxford, MS,  South, RED
+Ozark, AL,  South, RED
+Paducah, KY,  South, RED
+Pahrump, NV,  West, BLUE
+Palatka, FL,  South, RED
+Palestine, TX,  South, RED
+Pampa, TX,  South, RED
+Paragould, AR,  South, RED
+Paris, TN,  South, RED
+Paris, TX,  South, RED
+Parsons, KS,  Midwest, RED
+Payson, AZ,  West, RED
+Pearsall, TX,  South, RED
+Pecos, TX,  South, RED
+Pella, IA,  Midwest, RED
+Peru, IN,  Midwest, RED
+Picayune, MS,  South, RED
+Pierre, SD,  Midwest, RED
+Pinehurst-Southern Pines, NC,  South, RED
+Pittsburg, KS,  Midwest, RED
+Plainview, TX,  South, RED
+Platteville, WI,  Midwest, RED
+Plattsburgh, NY,  Northeast, BLUE
+Plymouth, IN,  Midwest, RED
+Point Pleasant, WV,  South, RED
+Ponca City, OK,  South, RED
+Pontiac, IL,  Midwest, BLUE
+Poplar Bluff, MO,  Midwest, RED
+Portales, NM,  West, BLUE
+Port Angeles, WA,  West, BLUE
+Port Lavaca, TX,  South, RED
+Portsmouth, OH,  Midwest, RED
+Pottsville, PA,  Northeast, RED
+Price, UT,  West, RED
+Prineville, OR,  West, BLUE
+Pullman, WA,  West, BLUE
+Quincy, IL,  Midwest, BLUE
+Raymondville, TX,  South, RED
+Red Bluff, CA,  West, BLUE
+Red Wing, MN,  Midwest, BLUE
+Rexburg, ID,  West, RED
+Richmond, IN,  Midwest, RED
+Richmond-Berea, KY,  South, RED
+Rio Grande City-Roma, TX,  South, RED
+Riverton, WY,  West, RED
+Roanoke Rapids, NC,  South, RED
+Rochelle, IL,  Midwest, BLUE
+Rockingham, NC,  South, RED
+Rockport, TX,  South, RED
+Rock Springs, WY,  West, RED
+Rolla, MO,  Midwest, RED
+Roseburg, OR,  West, BLUE
+Roswell, NM,  West, BLUE
+Ruidoso, NM,  West, BLUE
+Russellville, AR,  South, RED
+Ruston, LA,  South, RED
+Rutland, VT,  Northeast, BLUE
+Safford, AZ,  West, RED
+St. Marys, GA,  South, RED
+St. Marys, PA,  Northeast, RED
+Salem, OH,  Midwest, RED
+Salina, KS,  Midwest, RED
+Sandpoint, ID,  West, RED
+Sandusky, OH,  Midwest, RED
+Sanford, NC,  South, RED
+Sault Ste. Marie, MI,  Midwest, RED
+Sayre, PA,  Northeast, RED
+Scottsbluff, NE,  Midwest, RED
+Scottsboro, AL,  South, RED
+Scottsburg, IN,  Midwest, RED
+Searcy, AR,  South, RED
+Sedalia, MO,  Midwest, RED
+Selinsgrove, PA,  Northeast, RED
+Selma, AL,  South, RED
+Seneca, SC,  South, RED
+Seneca Falls, NY,  Northeast, BLUE
+Sevierville, TN,  South, RED
+Seymour, IN,  Midwest, RED
+Shawano, WI,  Midwest, RED
+Shawnee, OK,  South, RED
+Shelby, NC,  South, RED
+Shelbyville, TN,  South, RED
+Shelton, WA,  West, BLUE
+Sheridan, WY,  West, RED
+Show Low, AZ,  West, RED
+Sidney, OH,  Midwest, RED
+Sikeston, MO,  Midwest, RED
+Silver City, NM,  West, BLUE
+Snyder, TX,  South, RED
+Somerset, KY,  South, RED
+Somerset, PA,  Northeast, RED
+Sonora, CA,  West, BLUE
+Spearfish, SD,  Midwest, RED
+Spencer, IA,  Midwest, RED
+Spirit Lake, IA,  Midwest, RED
+Starkville, MS,  South, RED
+Statesboro, GA,  South, RED
+Steamboat Springs, CO,  West, BLUE
+Stephenville, TX,  South, RED
+Sterling, CO,  West, BLUE
+Sterling, IL,  Midwest, BLUE
+Stevens Point, WI,  Midwest, RED
+Stillwater, OK,  South, RED
+Storm Lake, IA,  Midwest, RED
+Sturgis, MI,  Midwest, RED
+Sulphur Springs, TX,  South, RED
+Summerville, GA,  South, RED
+Sunbury, PA,  Northeast, RED
+Susanville, CA,  West, BLUE
+Sweetwater, TX,  South, RED
+Tahlequah, OK,  South, RED
+Talladega-Sylacauga, AL,  South, RED
+Taos, NM,  West, BLUE
+Taylorville, IL,  Midwest, BLUE
+The Dalles, OR,  West, BLUE
+Thomaston, GA,  South, RED
+Thomasville, GA,  South, RED
+Tiffin, OH,  Midwest, RED
+Tifton, GA,  South, RED
+Toccoa, GA,  South, RED
+Torrington, CT,  Northeast, BLUE
+Traverse City, MI,  Midwest, RED
+Troy, AL,  South, RED
+Truckee-Grass Valley, CA,  West, BLUE
+Tullahoma-Manchester, TN,  South, RED
+Tupelo, MS,  South, RED
+Ukiah, CA,  West, BLUE
+Union, SC,  South, RED
+Union City, TN,  South, RED
+Urbana, OH,  Midwest, RED
+Uvalde, TX,  South, RED
+Van Wert, OH,  Midwest, RED
+Vermillion, SD,  Midwest, RED
+Vernal, UT,  West, RED
+Vernon, TX,  South, RED
+Vicksburg, MS,  South, RED
+Vidalia, GA,  South, RED
+Vincennes, IN,  Midwest, RED
+Vineyard Haven, MA,  Northeast, BLUE
+Wabash, IN,  Midwest, RED
+Wahpeton, ND,  Midwest, RED
+Wapakoneta, OH,  Midwest, RED
+Warren, PA,  Northeast, RED
+Warrensburg, MO,  Midwest, RED
+Warsaw, IN,  Midwest, RED
+Washington, IN,  Midwest, RED
+Washington, NC,  South, RED
+Washington Court House, OH,  Midwest, RED
+Watertown, SD,  Midwest, RED
+Watertown-Fort Atkinson, WI,  Midwest, RED
+Wauchula, FL,  South, RED
+Waycross, GA,  South, RED
+Weatherford, OK,  South, RED
+West Plains, MO,  Midwest, RED
+West Point, MS,  South, RED
+Whitewater, WI,  Midwest, RED
+Williston, ND,  Midwest, RED
+Willmar, MN,  Midwest, BLUE
+Wilmington, OH,  Midwest, RED
+Wilson, NC,  South, RED
+Winfield, KS,  Midwest, RED
+Winnemucca, NV,  West, BLUE
+Winona, MN,  Midwest, BLUE
+Wisconsin Rapids-Marshfield, WI,  Midwest, RED
+Woodward, OK,  South, RED
+Wooster, OH,  Midwest, RED
+Worthington, MN,  Midwest, BLUE
+Yankton, SD,  Midwest, RED
+Zanesville, OH,  Midwest, RED
+Zapata, TX,  South, RED
