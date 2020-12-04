@@ -9,4 +9,8 @@ output: html_document
 ```
 
 ## Index File
+
+[Deliverable1](deliverable1.html)
+
+[Deliverable2](deliverable2.html)
 ```{r cars}

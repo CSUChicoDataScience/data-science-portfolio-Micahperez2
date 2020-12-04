@@ -1,0 +1,281 @@
+
+/* Layout ==================================================== */
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+}
+
+.pr-1{padding-right: .25rem}
+.pr-2{padding-right: 1rem}
+
+.p0 {
+	padding-left: 10px;
+}
+.p1 {
+	padding-left: 20px;
+}
+.p2 {
+	padding-left: 30px;
+}
+.p3 {
+	padding-left: 40px;
+}
+.p4 {
+	padding-left: 50px;
+}
+.p5 {
+	padding-left: 60px;
+}
+.p6 {
+	padding-left: 70px;
+}
+.p7 {
+	padding-left: 80px;
+}
+.p8 {
+	padding-left: 90px;
+}
+.p9 {
+	padding-left: 100px;
+}
+.p10 {
+	padding-left: 110px;
+}
+.p11 {
+	padding-left: 120px;
+}
+.p12 {
+	padding-left: 130px;
+}
+.p13 {
+	padding-left: 140px;
+}
+.p14 {
+	padding-left: 150px;
+}
+.p15 {
+	padding-left: 160px;
+}
+.p16 {
+	padding-left: 170px;
+}
+.p17 {
+	padding-left: 180px;
+}
+.p18 {
+	padding-left: 190px;
+}
+/*===========================================================================================================
+
+=============================================================================================================	*/
+
+
+
+#tbl-container {
+	/*background-image: url(/iTable/images/table/table-background-light.png);
+	background-repeat: repeat;
+	background-position: left top;
+	background-attachment: scroll;*/
+	padding-left: 1px;
+	/*border-left:#aaa solid 1px;*/
+}
+
+
+/*
+
+*/
+.Table_Title{ font-size: 1.4em; margin-top: 10px;}
+.Sub_Title{margin-bottom: 5px;}
+.Table_Description{margin-top: 5px;}
+
+.dataTables_wrapper {
+	border:#aaa solid 1px;
+}
+
+table.dataTable th, table.dataTable td {
+	border-right: 1px solid #aaa;
+}
+
+table.dataTable tr.even
+{
+	background: #E7E5E5;
+}
+table.dataTable th{text-align: center !important; border-bottom: 1px solid #aaa;}
+
+.dataTable td, #tbl td {
+	text-align: right;
+	padding: 1px 5px 1px 3px;
+}
+.dataTable tr td:first-of-type, #tbl tr td:first-of-type, #tbl-container .DTFC_LeftWrapper td:first-of-type , #tbl-container1 td:first-of-type{
+	text-align: left;
+	padding: 1px 2px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .dataTables_scrollBody table[lockedcolumns*="1,2"] tr td:first-of-type{	padding: 1px 3px !important;}
+   .DTFC_LeftBodyLiner{overflow-y:scroll !important;overflow-x:hidden;}
+	/* *{ box-sizing: content-box !important; }
+	*:before, *:after { box-sizing:content-box !important; }*/
+}
+
+.dataTable thead {
+	/*background-image: url(/iTable/images/table/table-background-light.png);*/
+	background-repeat: repeat;
+	background-color: #FFF;
+}
+/*.DTFC_LeftBodyLiner{-ms-overflow-y:hidden !important;}*/
+table thead th{
+	padding: none !important;
+}
+table{width:none;}
+
+.dataTable .BoldStubStyle,
+.dataTable .StubStyle,
+#tbl .BoldStubStyle,
+#tbl .StubStyle {
+	text-align: left;
+	white-space: normal;
+}
+.dataTable .nsb,
+.dataTable .BoldStubStyle,
+.dataTable .NormalStyle_bold,
+.dataTable .NormalStyle_bold_left,
+.dataTable .NormalStyle_bold_centered,
+.dataTable .StubBannerStyle,
+.dataTable .CellBannerStyle,
+#tbl .nsb,
+#tbl .BoldStubStyle,
+#tbl .NormalStyle_bold,
+#tbl .NormalStyle_bold_left,
+#tbl .NormalStyle_bold_centered,
+#tbl .StubBannerStyle,
+#tbl .CellBannerStyle {
+	font-weight: bold;
+}/**/
+.dataTable .NormalStyle_centered,
+.dataTable .NormalStyle_bold_centered,
+#tbl .NormalStyle_centered,
+#tbl .NormalStyle_bold_centered {
+	text-align: center;
+}
+.dataTable .NormalStyle_left,
+.dataTable .NormalStyle_bold_left,
+#tbl .NormalStyle_left,
+#tbl .NormalStyle_bold_left{
+	text-align:left;
+	}
+
+.dataTable .StubBannerStyle,
+.dataTable .CellBannerStyle,
+#tbl .StubBannerStyle,
+#tbl .CellBannerStyle {
+	text-align: center;
+	background-color: #CCC !important;
+}
+.dataTable .StubBannerStyle-clean,
+.dataTable .CellBannerStyle-clean,
+#tbl .StubBannerStyle-clean,
+#tbl .CellBannerStyle-clean {
+	text-align: center;
+	background-color: #FFF !important;
+}
+
+
+#Final_Table_footer {
+	line-height: normal;
+}
+#Final_Table_footer .footNoteTitle {
+	xfont-size: 1.5em;
+	color: #999;
+	xfont-weight: bold;
+}
+#Final_Table_footer .FootNoteStyle,
+#Final_Table_footer .NormalStyle {
+	text-align: left;
+	white-space: normal;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------
+									CHART STYLES
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.amcharts-export-menu li{
+	list-style:none !important; 
+	list-style-image:none !important;
+	background-image:none !important;
+}
+ul#serieslist li { 
+	list-style:none; 
+	margin:1px; 
+	padding:1px; 
+	cursor:pointer; 
+	color: #666; 
+	background-color:#FFF; 
+	border:solid 1px #FFF;  
+	border-radius: 8px; 
+	height:1.5em; 
+	list-style-image:none;
+	background-image:none;
+}
+ul#serieslist li:hover {
+	background-color:white; 
+	border:solid 1px #CCCCCC;
+}
+ul#serieslist { 
+	margin:5px 0; 
+	padding:0; 
+	display:block;
+	overflow:auto;
+	height:92%;
+}
+#clearseriesbtn { 
+	width:342px;  
+	border-radius:8px; 
+	padding:5px; 
+	margin:5px 3px; 
+}
+.bulletNormal { 
+	float:left;
+	margin:5px 10px auto 7px;
+	width:10px; height:10px; 
+	border:solid 1px #CCC; border-radius:10px;
+}
+.bulletSelected{ 
+	margin:5px 10px auto 7px;
+	width:5px; height:5px; 
+	border:solid 5px #FFF; border-radius:10px;
+}
+.chartSelectBtn{
+	width:51px;
+	height:63px;
+	display:block;
+	margin: 5px -8px 5px auto;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:none;
+	cursor:pointer;
+	display:block;
+}
+#BarChartBtn{
+	background-image:url(/iTable/images/tabs/chartTab_bar_default.png);
+}
+#BarChartBtn:hover{
+	background-image:url(/iTable/images/tabs/chartTab_bar_hover.png);
+}
+#BarChartBtn.selected{
+	background-image:url(/iTable/images/tabs/chartTab_bar_selected.png);
+}
+
+#LineChartBtn{
+	background-image:url(/iTable/images/tabs/chartTab_line_default.png);
+}
+#LineChartBtn:hover{
+	background-image:url(/iTable/images/tabs/chartTab_line_hover.png);
+}
+#LineChartBtn.selected{
+	background-image:url(/iTable/images/tabs/chartTab_line_selected.png);
+}
+.selected{ cursor:default; }
+
+.bold { font-weight:bold; }
