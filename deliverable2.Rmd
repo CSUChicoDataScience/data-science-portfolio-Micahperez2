@@ -3,18 +3,17 @@ title: 'Deliverable #2'
 author: "Micah A. Perez"
 date: "11/16/2020"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ## Motivation 
 
-  On my first instance of gathering, cleaning up, and visualizing data I went through quite a few steps to try to make everything usable for the rest of the project. That, being the bulk of my work, led to other pieces of the overall assignment being overall basic and not interesting. This time around, my goal is to build off of previous ideas and add to add new interesting data, visualizations, and methods of extraction. For this deliverable, I've first decided to try to include GDP data onto my already existing city data (that involved populations). I've also tried to experiment with some new ways of visualization of my data (using the us map library in R) as well as some new methods of transforming my data (using Google's API). 
-  When I started with this deliverable, I wanted to find out GDP's growth in correlation to population growth in the United States and come up with a method to rank and visualize area's by anticipated future growth. About half way through, I realized I'd have to answer that in the next deliverable, as I didn't feel that I has enough skill or time with R to answer those questions in a way that I wanted to. Ultimately, this deliverable was a learning experience that allowed me to become more proficient in R and find new and interesting libraries that I might be able to dive deeper into on the next part of this assignment. I felt that I was also lucky enough in the writing of the code to find out new and interesting data that I might implement later on as well. 
-  
+  On my first instance of gathering, cleaning up, and visualizing data I went through quite a few steps to try to make everything usable for the rest of the project. That, being the bulk of my work, led to other pieces of the overall assignment being overall basic and not interesting. This time around, my goal is to build off of previous ideas and add to add new interesting data, visualizations, methods of extraction, and most of all modeling. For this deliverable, I've first decided to try to include GDP data onto my already existing city data (that involved populations). Then I try to answer the question of how we can predict GDP by some population variable with a simple model. Lastly (mostly for fun), I attempt to map the 50 largest US cities by population's growth rate from the last decade using a Google Maps API. 
+
 ## Part 1 - Data Extraction
 
-  To start, I found a government website (https://apps.bea.gov/iTable/index_regional.cfm) that included information including GDP for cities across the United States. Lucky for me, many of the city names matched up with my previous data. For the simplicity of this assignment, I downloaded the html document and web scraped the data directly from the code, giving me a nice data set that I felt was easily appended to my existing data. At first, I attempted to join the data by name directly. This however, wasn't working and I thought I was out of options. I then realized that the city names were in the same order in my newly scraped data as my old data was, which allowed me to simply create an index column for both data sets and left-join them together.
+  To start, I found a government website (https://apps.bea.gov/iTable/index_regional.cfm) that included information including GDP for cities across the United States. Lucky for me, many of the city names matched up with my previous data. For the simplicity of this assignment, I downloaded the html document and web scraped the data directly from the code, giving me a nice data set that I felt was easily appended to my existing data. At first, I attempted to join the data by name directly. After this didn't seem to work properly, I thought I was out of options. Fortunately, I then realized that the city names were in the same order in my newly scraped data as my old data was, which allowed me to simply create an index column for both data sets and left-join them together.
   
 ![The website that I extracted my data from](images/gdp_site.png)
 
@@ -24,56 +23,86 @@ library(rvest)
 library(stringr)
 library(tidyverse)
 library(rvest)
-#Read Data in from HTML and extract City/State Names
+library(modelr)
 
-All_time_data <- read_html("final_data/CITY_GDP_DATA.html") %>% 
+#Read Data in from HTML and extract City/State Names
+#2018 Data Extraction
+All_time_data_2018 <- read_html("final_data/CITY_GDP_DATA.html") %>% 
    html_node("body")
-City_data <- All_time_data %>%
+City_data <- All_time_data_2018 %>%
    xml_find_all("//td[contains(@class, 'NormalStyle_left Locked')]")  %>%
    html_text()
 #Take out half of the rows because they were doubled on extraction
 City_data <- City_data[0:385]
-#Extract GDP Data
-GDP <- All_time_data %>%
+#Extract GDP_2018 Data
+GDP_2018 <- All_time_data_2018 %>%
    xml_find_all("//td[contains(@class, 'ns shade-column')]")  %>%
    html_text()
+
+#2010 Data from different HTML page
+All_time_data_2010 <- read_html("final_data/CITY_GDP_DATA_2010.html") %>% 
+   html_node("body")
+City_data_2010 <- All_time_data_2010 %>%
+   xml_find_all("//td[contains(@class, 'NormalStyle_left Locked')]")  %>%
+   html_text()
+#Take out half of the rows because they were doubled on extraction
+City_data_2010 <- City_data_2010[0:385]
+#Extract GDP_2018 Data
+GDP_2010 <- All_time_data_2010 %>%
+   xml_find_all("//td[contains(@class, 'ns shade-column')]")  %>%
+   html_text()
+
 #Throw Data into one tibble
-gdp_data <- data.frame(City_data, GDP)
+gdp_data <- data.frame(City_data, GDP_2010, GDP_2018)
 head(gdp_data)
 ```
-
+### Note 1 - Addition of Population Data
+  A while through project 1 I realized that working with population data that was purely differences in growth and decline and no actual total population would be limiting to my potential ideas, visualizations, and models. When I started on the Simple Model, I realized that using population percentage change would be incredibly useful so I decided to download a CSV and add it on to my current data as I did below. 
 
 ```{r,warning=FALSE,message=FALSE}
 library(tidyr)
 library(dplyr)
 
-#Since the City_data contains both the City and State information, divide the two by the Comma
-gdp_data <- gdp_data %>%
-  separate(City_data, c("City", "State"), ",")
+#Read a CSV file to add actual population data to my dataset
+Population_data <- read.csv(file = 'final_data/Population_Data_2010-2018.csv')
 
-#Take out the comma's of GDP so I am able to make it a double (to be used later in data analysis)
-gdp_data$GDP <- as.numeric(gsub(",","",gdp_data$GDP))
-gdp_data <- mutate(gdp_data, GDP=as.double(gdp_data$GDP) )
+#Take out commas in Population Data to be able to Properly add it as a double column to my existing dataframe without any error
+Population_data$X2010 <- as.numeric(gsub(",","",Population_data$X2010))
+Population_data$X2018 <- as.numeric(gsub(",","",Population_data$X2018))
 
-#The United States GDP strangely disappeared so I manually added it
-gdp_data$GDP[which(gdp_data$City == "United States")] <- 16504746972
+#Put Population data into a dataframe 
+Population_data <- as.data.frame(Population_data)
 
-#Remove the State and the City Data, all we need to combine it with th main dataset is the GDP numbers and orders of them 
+#Added Population data as Columns to exising data
+gdp_data$Population_2010 <- Population_data$X2010#mutate(Population_data, X2010=as.double(Population_data$X2010) )
+gdp_data$Population_2018 <- Population_data$X2018#mutate(Population_data, X2018=as.double(Population_data$X2018) )
+
+#Take out the comma's of GDP_2018 so I am able to make it a double (to be used later in data analysis)
+gdp_data$GDP_2018 <- as.numeric(gsub(",","",gdp_data$GDP_2018))
+gdp_data <- mutate(gdp_data, GDP_2018=as.double(gdp_data$GDP_2018) )
+
+#Did the Same for the 2010's Data
+gdp_data$GDP_2010 <- as.numeric(gsub(",","",gdp_data$GDP_2010))
+gdp_data <- mutate(gdp_data, GDP_2010=as.double(gdp_data$GDP_2010) )
+
+#Remove the State and the City Data, all we need to combine it with the main dataset is the GDP numbers and orders of them 
 gdp_data$State <- NULL
 gdp_data$City <- NULL
 
-head(gdp_data)
+#Create a new column of the change between 2010 to 2018 and label it as change over the decade (2018 was the newest data presented on goverment sites)
+gdp_data$Decade_GDP_Change <- (gdp_data$GDP_2018 - gdp_data$GDP_2010)
+
 ```
 ```{r,warning=FALSE,message=FALSE}
 PreviousData <- read.csv(file = 'final_data/output.csv')
 #finalData$Index <- NULL
 
-#Make an index on GDP data to left_join with the Mains Index
+#Make an index on GDP_2018 data to left_join with the Mains Index
 gdp_data$Index <- seq.int(nrow(gdp_data))
 
+#Adding the data through a Left Join
 mainData <- left_join(PreviousData, gdp_data, by="Index")
 mainData$Index <- NULL
-head(mainData)
 ```
 ## Part 2 - Simple Visualization and Mapping
 
@@ -83,6 +112,7 @@ head(mainData)
 
 ```{r,warning=FALSE,message=FALSE}
 library(ggplot2)
+library(scales)
 
 #Put To make the numbers on the graph more readable
 options(scipen=10000) 
@@ -97,71 +127,239 @@ City_GDP_Data$City <- gsub("(.*)-.*", "\\1", City_GDP_Data$City)
 City_GDP_Data$City <- gsub("(.*)-.*", "\\1", City_GDP_Data$City)
 
 #Used ggplot to graph top 5 biggest Metropolitain areas 
+
+##Here I am multipling each of my calculated values by 1000. I Do this because when I extracted the data it was in thousands of dollars to which I wanted to get back to a dollar to dollar value. When graphing the data, I actual use a function (scale_y_continuous) to get though values to be more readable on the y axis. 
+City_GDP_Data$GDP_2018 <- (City_GDP_Data$GDP_2018*1000)
+City_GDP_Data$GDP_2010 <- (City_GDP_Data$GDP_2010*1000)
+City_GDP_Data$Decade_GDP_Change <- (City_GDP_Data$Decade_GDP_Change*1000)
+
 City_GDP_Data %>% 
-    arrange(desc(GDP)) %>%
+    arrange(desc(GDP_2018)) %>%
     slice(2:6) %>%
-    ggplot(., aes(x=City, y=GDP))+
-              geom_bar(stat='identity', aes(fill = GDP)) + 
-              print(labs(y="GDP (In Thousands of Dollars)", x = "Top 5 Cities with Highest GDP "))
+    ggplot(., aes(x=City, y=GDP_2018))+
+              geom_bar(stat='identity', aes(fill = GDP_2018)) + 
+              print(labs(y="GDP", x = "Top 5 Cities with Highest GDP in 2018 ")) +
+              scale_y_continuous(labels = scales::label_number_si()) 
 ```
+### Note 2 - Here (mostly for fun and to learn about new functions and libraries) I decided to map GDP data across the US on an actual map, where one can visualize what states have the most economic activity going on.
 
-
-```{r}
+```{r,warning=FALSE,message=FALSE}
 library(usmap) #Use USA MAP Library to Better visualize results
 library(cdlTools)
 
-#Created new data set to work with (Just includes State and GDP data)
-State.population.data <- aggregate(GDP ~ State , data=mainData, FUN=sum) 
+#Created new data set to work with (Just includes State and GDP_2018 data)
+State.population.data <- aggregate(GDP_2018 ~ State , data=mainData, FUN=sum) 
 
-# Divide GDP By 1,000,000 to Get number in Billions Rather Than Thousands (To Be Much more readable to viewer)
-State.population.data$GDP <- (State.population.data$GDP/1000000) 
+# Divide GDP_2018 By 1,000,000 to Get number in Billions Rather Than Thousands (To Be Much more readable to viewer)
+State.population.data$GDP_2018 <- (State.population.data$GDP_2018/1000000) 
 
 # Made State data a character so I could turn it into a fip (readable content to usmap library)
 State.population.data <- mutate(State.population.data, State=as.character(State.population.data$State) )
 
 State.population.data$State <- fips(State.population.data$State)
 
-State.population.data <- data.frame(fips=State.population.data$State, value=State.population.data$GDP)
+State.population.data <- data.frame(fips=State.population.data$State, value=State.population.data$GDP_2018)
 
 #Put all data into a dataframe so it was readable to function
 df <- data.frame(State.population.data, na=0)
 
 plot_usmap(data = df, values = "value", color = "white") +
-  scale_fill_continuous(name = "GDP (2018, in Billions)", label = scales::comma) + 
+  scale_fill_continuous(name = "GDP_2018 (2018, in Billions)", label = scales::comma) + 
   theme(legend.position = "right")
 ```
-## Part 3 - Mapping Data using Google API
-  After my "simple" visualizations I wanted to get into more complected and advanced graphing but I couldn't find any way to graph my cities by name on a map of the US. After hours of online searching, I realized that Google Maps API could be used extract the latitude and longitude points from cities names, which I could then use to graph on a plot of the us maps. In this example, I graphed the top 52 metropolitan areas by GDP in the United States. 
-
+## Part 3 - Simple Model
+  In this section of the project I try to answer a simple question - can you predict a cities GDP percentage growth from another factor? I found, as a matter of fact, that you nearly can with decent accuracy using that cities Population percentage growth. Since the model involves a variation of code, I wanted to describe my step by step thinking with it. 
 ```{r,warning=FALSE,message=FALSE}
+#Loaded in all Libraries needed for functions 
 require(ggmap)
 require(maps)
 library(mapproj)
-register_google(key = "AIzaSyByXCki-hIHBM_HzbK_IE8d2xMZZYXEGLM") #Google Maps API Key to have acess to data
+library(ggrepel)
+library(lme4)
+library(caret)
+library(modelr)
 
-City_GDP_Data_For_Cities <- #Ordered and sliced for top 52 US cities by GDP 
-    City_GDP_Data %>% 
-    arrange(desc(GDP)) %>%
-    slice(2:53)
+#Create new columns for percent change of GDP and Population using my data from their numbers in 2010 and 2018. Not quite a decade but nearly
+City_GDP_Data$Population_Percent_Change <- (City_GDP_Data$Population_2018/City_GDP_Data$Population_2010)
+City_GDP_Data$GDP_Percent_Change <- (City_GDP_Data$GDP_2018/City_GDP_Data$GDP_2010)
+```
 
-City_GDP_Data_For_Cities <- cbind(geocode(as.character(City_GDP_Data_For_Cities$City)), City_GDP_Data_For_Cities) #Used City names and Google Maps API to get coordinates and binded that to my data frame
+### Note 3 - In these first few steps I extract the data needed for the modeling and plot the initial data to get a look of what the model will attempt to answer. The plot itself was an after though (post model and Exploratory data analysis) as was the population percent change above.
 
-City_GDP_Data_For_Cities[is.na(City_GDP_Data_For_Cities)] <- 0 #Made all NA vaules 0 to avoid errors in code
+```{r}
+#Slice data frame only taking data from cities whose GDP data I have (leaving out the United States as a Whole)
+df <- data.frame(City_GDP_Data) %>%
+    slice(2:385)
+
+
+ggplot(df, aes(x = df$GDP_Percent_Change, y =  df$Population_Percent_Change, color = df$Region)) + 
+  geom_point() +
+  print(labs(x="Population Percentage Change (2010 - 2018)", y = "GDP Percentage Change (2010 - 2018) ", color = "State"))
+```
+
+### Note 4 - To start my modeling process, I wanted to see what a model without training of taking out a validation of training set would look like. I also wanted to see how residuals would compare. This is my first model with nothing more than a few lines of code and no further testing. Using Population Percent change is another part of the afterthought post data analysis. Throughout my creation of the model I was changing that Y variable around in the lm function and the plots. 
+
+```{r}
+
+first_model <- lm(GDP_Percent_Change ~ Population_Percent_Change, data = df)
+
+summary(first_model)
+
+first_model$coef
+
+GDP_res <- resid(first_model)
+
+plot(GDP_res, ylab="Residuals", xlab="GDP") 
+
+ggplot(data=df, mapping=aes(x=df$Population_Percent_Change, y=df$GDP_Percent_Change, color = df$Region)) +
+  geom_point() +
+  geom_abline(intercept = first_model$coefficients[1], slope = first_model$coefficients[2], color = "dark blue") +
+  print(labs(x="Population Percentage Change (2010 - 2018)", y = "GDP Percentage Change (2010 - 2018) ", color = "State"))
 
 ```
 
+### Note 5 - Here is where I attempt to do modeling with the help of validation, training, and testing sets splitting them into a 60/20/20 fashion. I also do a little analysis to find out what kind of independent variable would work the best at predicting GDP percentage change. After testing the total population of cities (for 2018) and the amount of Immigrant growth for the last decade, I realized that these numbers didn't work well. This led me to creating a new variable, Population Percent Change, which allows me to make a stronger and more accurate model. 
+
 ```{r}
-City_GDP_Data_For_Cities$GDP <- (City_GDP_Data_For_Cities$GDP/1000000) #Divided GDP Data by 1 Million (to get data in Billions for Easy Reading)
+
+#Spliting My test and rest data
+rest_rows <- as.vector(createDataPartition(df$GDP_Percent_Change, p = 0.8, list = FALSE))
+test <- df[-rest_rows, ]
+rest <- df[rest_rows, ]
+
+#Exploritory Data Analysis
+#Total Population (2018)
+ggplot(data = rest) +
+  geom_point(mapping = aes(x = Population_2018, y = GDP_Percent_Change), alpha = 0.2)
+
+#Immigrant growth for the last decade (2010-2019)
+ggplot(data = rest) +
+  geom_point(mapping = aes(x = International_Decade, y = GDP_Percent_Change), alpha = 0.2)
+
+#Population percentage change (2010-2018)
+ggplot(data = rest) +
+  geom_point(mapping = aes(x =Population_Percent_Change, y = GDP_Percent_Change), alpha = 0.2)
 
 
-City_data_transformed <- usmap_transform(City_GDP_Data_For_Cities) #Transformed coordinate data to be readable by usmap plot
+```
+
+### Note 6 - In this section I broke apart the rest of my data to validation and training data which I added predictions to and plotted in respect to a line with a slope of 1. I realized that this actually worked decently well and used functions to test the accuracy of my data. When my goodness of fit measures data matched up quite well, I decided to keep going and find residuals. The residuals themselves weren't too far off either (with the exception of some outlines)
+
+```{r}
+
+#
+#second_model <- lm(GDP_Percent_Change ~ Population_Percent_Change, data = df) 
+
+#grid <- data_grid(df, Population_Percent_Change) %>%
+#  add_predictions(second_model)
+#data <- add_residuals(df, second_model)
+
+#set.seed(1234)
+
+#Split rest of data into validation and training data
+row_num <- as.vector(createDataPartition(rest$GDP_Percent_Change, p=0.75, list=FALSE))
+validate = rest[row_num,]
+train = rest[-row_num,]
+
+#Create a validation model out of validation data
+validate_model <- lm(GDP_Percent_Change ~ Population_Percent_Change, data = validate)
+
+predictions <- add_predictions(validate, validate_model)
+
+ggplot(data=predictions, mapping = aes(x=GDP_Percent_Change, y = pred)) + 
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, color = "dark blue")
+
+#Goodness of fit measures
+R2(predictions$pred, predictions$GDP_Percent_Change)
+MAE(predictions$pred, predictions$GDP_Percent_Change)
+RMSE(predictions$pred, predictions$GDP_Percent_Change)
+
+#Residual calculation and plot graph
+resids <- add_residuals(validate, validate_model)
+
+ggplot(data=resids, mapping = aes(x=GDP_Percent_Change, y = resid)) + 
+  geom_ref_line(h = 0) +
+  geom_point()
+
+```
+
+### Note 7 - Here I trained my data with the rest and used a cross validation approach to cut it up more. Then I used the same strategies as I did with my previous model on this one as well as graphing a residual. I was happy with my data and this was the last step I decided to take. 
+
+```{r}
+
+#K-fold cross-validation approach.
+train.control <- trainControl(method = "cv", number = 5)
+final_model <- train(GDP_Percent_Change ~ Population_Percent_Change, data = rest, method = "lm",
+               trControl = train.control)
+
+predictions <- add_predictions(test, final_model)
+
+ggplot(data = predictions, mapping = aes(x = GDP_Percent_Change, y = pred)) + 
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, color = "red")
+
+#Goodness of fit on new predictions 
+R2(predictions$pred, predictions$GDP_Percent_Change)
+MAE(predictions$pred, predictions$GDP_Percent_Change)
+RMSE(predictions$pred, predictions$GDP_Percent_Change)
+
+resids <- add_residuals(test, final_model)
+
+ggplot(data = resids, mapping = aes(x=GDP_Percent_Change, y = resid)) +
+  geom_ref_line(h = 0) +
+  geom_point()
+
+```
+
+### Note 8 - I used the predict function to predict how a cities GDP (essentially economy) growth would be affected by higher populations. From this, I found that metro area's whose population grows not only can expect an equal amount of GDP growth per capita, but as a matter of a fact more. This goes to prove that area's that are more heavily populated make not only the city or area as a whole richer but rather each individual as well. I suppose this is good evidence that living in big cities is a better idea if you want to gain capital and have a higher standard of living than in a smaller area. 
+
+```{r}
+#Predictions to test how I can work with model 
+predict(final_model, data.frame(Population_Percent_Change = c(1.00, 1.25, 1.50)))
+```
+
+## Part 4 - Using Google Maps API and graphing Metro Areas by Population Change 
+  Just for fun, I wanted to try to see if I could get an idea of what cities were growing fastest in the last decade (which might give a good idea of what cities will be economic powerhouses). I connected to the Google maps API and took their location data which I then graphed below. 
+
+```{r,warning=FALSE,message=FALSE}
+
+City_GDP_2018_Data_For_Cities <- data.frame(City_GDP_Data) %>%
+    slice(2:52)
+
+#Google Maps API Key to have acess to data
+register_google(key = "AIzaSyByXCki-hIHBM_HzbK_IE8d2xMZZYXEGLM") 
+
+#Used City names and Google Maps API to get coordinates and binded that to my data frame
+City_GDP_2018_Data_For_Cities <- cbind(geocode(as.character(City_GDP_2018_Data_For_Cities$City)), City_GDP_2018_Data_For_Cities) 
+
+#Made all NA vaules 0 to avoid errors in code
+City_GDP_2018_Data_For_Cities[is.na(City_GDP_2018_Data_For_Cities)] <- 0 
+
+#Transformed coordinate data to be readable by usmap plot
+City_data_transformed <- usmap_transform(City_GDP_2018_Data_For_Cities) 
 
 plot_usmap(fill = "grey", alpha = 0.25) +
-  geom_point(data=City_data_transformed, aes(x=lon.1, y=lat.1, size=GDP), color="green") +
-  labs(title = "Graphed US GDP Data", size = "GDP (in Billions)") +
+  geom_point(data=City_data_transformed, aes(x=lon.1, y=lat.1, size=Population_Change_Decade), color="green") +
+  labs(title = "Graphed US Population Change Data", size = "Population Change Over the Decade") +
   theme(legend.position = "right")
 ```
 
+## Conclusion
+
+  Overall I would call this modeling process a success. My residuals in the assignment never seemed too far off and I felt like I got lucky with choosing the Population percentage change as my independent variable. One thing that I may want to add next time is just more data overall. In this assignment more rural areas were completely left out which could be omitting a big chunk of the story, something I hope to include in the next phase of the project. I also could potentially come up with a better model, maybe even a non-linear one that can predict better and more accurately across the board. 
+  On this assignment, I've learned that no model is perfect. In the real world there are too many variables to keep up with and without a time machine predicting anything with 100% accuracy isn't possible. I have learned though that models can be useful and even interesting. I was really excited to use and expand my data in this assignment and was surprised with many of the findings. Hopefully in the last phase of the project I can dive even deeper. 
+
 ## Ethics
 
+   On a national scale, wealth and economy have an intense impact on many factors of citizens lives from life expectancy rate to overall quality. With population and growth as a input to predict GDP percentage change in this project, I feel that I got a clear idea of how areas with a larger population can grow to make all its residents lives better. My predictive model in this assignment alongside my data can paint a decent picture of how many metropolitan area's can look in the future. It also can make it easier to notice both state and region growth which may help influence where one may decide to move, invest in, start a company, or do anything else in that may be helped by knowing its future economic state. 
+  Next time, I hope to add more data (hopefully involving industry and businesses) to what already exist see if it is possible to more accurately predict what area's will grow faster economically in the future. I also hope to create new and more interesting visualizations that can make the results of my models even more obvious to average person with no background knowledge on statistics. 
+  
+  
+  
+  
+  
+  
+  
+  
   
