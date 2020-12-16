@@ -132,6 +132,8 @@ ggplot(aes(Political_Leaning, International_Annual)) +
     scale_fill_manual(values = hex) +
     print(labs(y="2018-2019 Population Change in International Migrants", x = "State Political Leaning", colors = "State Political Leaning")) #Used to label data in a more readable format
 
+
+
 ```
 
 This visualization shows a slightly closer but still one-sided change in the data. Red states are getting nearly half a million more international people moving to them than Blue. 

@@ -13,4 +13,6 @@ output: html_document
 [Deliverable1](deliverable1.html)
 
 [Deliverable2](deliverable2.html)
+
+[Deliverable3](deliverable3.html)
 ```{r cars}

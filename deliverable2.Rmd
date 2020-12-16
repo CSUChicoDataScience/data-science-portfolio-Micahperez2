@@ -3,8 +3,8 @@ title: 'Deliverable #2'
 author: "Micah A. Perez"
 date: "11/16/2020"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ## Motivation 
@@ -182,6 +182,8 @@ library(modelr)
 #Create new columns for percent change of GDP and Population using my data from their numbers in 2010 and 2018. Not quite a decade but nearly
 City_GDP_Data$Population_Percent_Change <- (City_GDP_Data$Population_2018/City_GDP_Data$Population_2010)
 City_GDP_Data$GDP_Percent_Change <- (City_GDP_Data$GDP_2018/City_GDP_Data$GDP_2010)
+
+write.csv(City_GDP_Data, "final_data/Deliverable_3_Data.csv")
 ```
 
 ### Note 3 - In these first few steps I extract the data needed for the modeling and plot the initial data to get a look of what the model will attempt to answer. The plot itself was an after though (post model and Exploratory data analysis) as was the population percent change above.
@@ -226,6 +228,7 @@ ggplot(data=df, mapping=aes(x=df$Population_Percent_Change, y=df$GDP_Percent_Cha
 rest_rows <- as.vector(createDataPartition(df$GDP_Percent_Change, p = 0.8, list = FALSE))
 test <- df[-rest_rows, ]
 rest <- df[rest_rows, ]
+
 
 #Exploritory Data Analysis
 #Total Population (2018)
@@ -343,6 +346,8 @@ plot_usmap(fill = "grey", alpha = 0.25) +
   geom_point(data=City_data_transformed, aes(x=lon.1, y=lat.1, size=Population_Change_Decade), color="green") +
   labs(title = "Graphed US Population Change Data", size = "Population Change Over the Decade") +
   theme(legend.position = "right")
+
+
 ```
 
 ## Conclusion
